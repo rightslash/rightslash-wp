@@ -27,5 +27,13 @@
 	*/
 	function rightslash_assets(){
 		wp_enqueue_style("rightslash-css", RS_THEME_ASSET . "/css/template.css", null, VERSION );
+
+		if(is_front_page()){
+			wp_enqueue_style("intro-css", RS_THEME_ASSET . "/css/intro.css", null, VERSION );
+
+			wp_enqueue_script("modal-js", RS_THEME_ASSET . "/js/modal-effect.js", array("jquery"), VERSION, true);
+			wp_enqueue_script("intro-js", RS_THEME_ASSET . "/js/intro.js", array("jquery"), VERSION, true);
+		}	
+		
 	}
 	add_action("wp_enqueue_scripts", "rightslash_assets");

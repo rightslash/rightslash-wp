@@ -247,6 +247,24 @@ template {
 }
 
 
+/*-------------------------------------------
+	@Structure
+---------------------------------------------*/
+#wrapper {
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+}
+.main-content {
+	max-width:1290px;
+	margin:0 auto;
+	position:relative;
+	z-index:3;
+	height: inherit;
+}
+
 
 /*-------------------------------------------
 	@Loading part
@@ -297,7 +315,7 @@ template {
 #object_one{
 	-webkit-animation: object 2s linear infinite;
 	 animation: object 2s linear infinite;
-	 }
+}
 #object_two{ 
 	-webkit-animation: object 2s linear infinite -.4s;
 	animation: object 2s linear infinite -.4s;
@@ -305,15 +323,15 @@ template {
 #object_three{ 
 	-webkit-animation: object 2s linear infinite -.8s; 
 	animation: object 2s linear infinite -.8s; 
-	}
+}
 #object_four{ 
 	-webkit-animation: object 2s linear infinite -1.2s;
 	animation: object 2s linear infinite -1.2s; 
-	} 
+} 
 #object_five{ 
 	-webkit-animation: object 2s linear infinite -1.6s; 
 	animation: object 2s linear infinite -1.6s; 
-	}
+}
 	
 @-webkit-keyframes object{
   0% { left: 100px; top:0}

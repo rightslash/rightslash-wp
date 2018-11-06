@@ -37,6 +37,121 @@
 			</div>
 		</div>
 	</div>
+
+	<!--intro-wrapper start-->
+	<div id="intro-wrapper">
+		<div class="dark"></div>
+
+		<div class="backLand">
+	    	<img src="<?php echo RS_THEME_ASSET; ?>/images/intro/birds.gif" alt="Flying Birds" class="birds" />
+
+	    	<div class="sun"><img src="<?php echo RS_THEME_ASSET; ?>/images/intro/sun.png" alt="Sun" /></div>
+
+	        <div class="backHill"></div>
+
+	        <div class="plane" id="plane"></div>
+
+	        <div id="far-clouds" class="far-clouds stage"></div>
+	        <div id="near-clouds" class="near-clouds stage"></div>
+
+	        <div class="frontHill"></div>
+
+	        <div class="backTree">
+	        	<div class="lightHouse">
+	                <img src="<?php echo RS_THEME_ASSET; ?>/images/intro/fan.gif" alt="Light House" />
+	            </div>
+	        </div>
+
+	        <div class="hillLand1">
+	        	<div class="intro-main-content">
+		            <img src="<?php echo RS_THEME_ASSET; ?>/images/intro/home.png" alt="House" class="home1" />
+		            <div class="logoBoard">
+		            	<a href="<?php echo site_url(); ?>"><img src="<?php echo RS_THEME_ASSET; ?>/images/intro/logo.png" alt="Right Slash" /></a>
+		            </div>
+		            <div class="pump">
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/ps.png" alt="" />
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/il.png" alt="" />
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/html.png" alt="" />
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/css.png" alt="" />
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/js.png" alt="" />
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/bs.png" alt="" />
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/php.png" alt="" />
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/ms.png" alt="" />
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/wp.png" alt="" />
+		            	<img src="<?php echo RS_THEME_ASSET; ?>/images/service/woo.png" alt="" />
+		            </div>
+	            </div>
+	        </div>
+
+	        <div class="hillLand2"></div>
+
+	        <div class="hillLand3">
+	        	<div class="intro-main-content">
+		        	<div class="pond">
+		                <img src="<?php echo RS_THEME_ASSET; ?>/images/intro/duck.gif" alt="Duck" class="duck" />
+		                <img src="<?php echo RS_THEME_ASSET; ?>/images/intro/crows.gif" alt="Crow" class="crow" />
+		                <img src="<?php echo RS_THEME_ASSET; ?>/images/intro/tree_2.png" alt="Trees" class="tree_2" />
+		            </div>
+		            <img src="<?php echo RS_THEME_ASSET; ?>/images/intro/tree_1.png" alt="Tree" class="tree_3" />
+	            </div>
+	        </div>
+	        
+	      
+	      	<div class="parasuitWrap">
+				<div class="para1">
+					<a href="/web-development">Web<br>Development</a>
+				</div>
+
+				<div class="para2">
+					<a href="/graphics-design">Graphics<br>Design</a>
+				</div>
+
+				<div class="para3">
+					<a href="/domain-hosting">Email<br>Template</a>
+				</div>
+
+				<div class="para4">
+					<a href="/domain-hosting">SMS<br>Marketing</a>
+				</div>
+	      	</div>
+	      	
+	      	<div class="letterbox">
+				<a href="#" class="contact">Contact us</a>
+				<button class="md-trigger"></button>
+				<div class="contactForm"></div>
+	      	</div>
+			
+			<div class="md-modal md-effect-13">
+	      		<div class="md-content">
+		      		<article>
+		      			<span class="close">Close me!</span>
+		      			<form  method="post" id="contact-form">
+							<h1>Contact us</h1>
+							<p class="contactInfo-one">To : <strong>Super Station</strong></p>
+							<p class="contactInfo-one">Subject : <input type="text" required name="subject" class="input-box"></p>
+							<p class="contactInfo-one"><textarea required name="message" class="message" cols="30" rows="10">Description : </textarea></p>
+							<p class="contactInfo-one">
+								<strong>Regards</strong>,<br>
+								Name : <input type="text" name="name" required class="input-box"><br>
+								Email : <input type="email" name="email" required class="input-box">
+							</p>
+							<input type="submit" class="sendBtn" value="Send Mesaage">
+							<p class="thankyou"><strong>Thank you for contact with us.</strong></p>
+						</form>
+					</article>
+				</div>
+			</div>
+			
+	      	<div class="frontLand">
+				<div class="contentLand">
+					<img src="<?php echo RS_THEME_ASSET; ?>/images/intro/fench.png" alt="Fench" class="fench" />
+				</div>
+			</div>
+	  	</div>
+	    <!--/bankLand end-->
+	</div>
+	<!--/intro-wrapper end-->
 	
+	<?php wp_footer(); ?>
 </body>
 </html>
