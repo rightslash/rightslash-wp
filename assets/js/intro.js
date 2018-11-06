@@ -221,7 +221,7 @@
 				
 		        $.ajax({
 				  method: "POST",
-				  url: "ajax.php",
+				  url: "../../ajax.php",
 				  data: {subject: sub.val(), c_name: name.val(), message: msg, c_email: email.val(), send:1},
 				  success: function(response) {
 			        $('.md-modal').animate({
