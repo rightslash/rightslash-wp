@@ -48,7 +48,7 @@
 		$email = $_REQUEST['email'];
 		$body = "Name: $name. <br>".
 		"Email: $email. <br>".
-		"Message: $msg.";
+		"$msg.";
 
 		$to = "rightslash24@gmail.com";
 		$headers  = "MIME-Version: 1.0" . "\r\n";
