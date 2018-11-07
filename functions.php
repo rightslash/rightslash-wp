@@ -37,3 +37,28 @@
 		
 	}
 	add_action("wp_enqueue_scripts", "rightslash_assets");
+
+	/*
+	* Email sent function for intro page contact mail
+	*/
+	function rightslash_send_email(){
+		$name = $_REQUEST['name'];
+		$sub = $_REQUEST['subject'];
+		$msg = $_REQUEST['message'];
+		$email = $_REQUEST['email'];
+		$body = "Name: $name. <br>".
+		"Email: $email. <br>".
+		"Message: $msg.";
+
+		$to = "rightslash24@gmail.com";
+		$headers  = "MIME-Version: 1.0" . "\r\n";
+		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+		$headers .= "From: $name <$email> \r\n";
+		$headers .= "Reply-To: $email \r\n";
+		mail($to, $sub, $body, $headers);
+		//if($mail){
+	    	//echo "Email Sent Successfully";
+        //}
+	}
+	add_action("wp_ajax_send_email", "rightslash_send_email");
+	add_action("wp_ajax_nopriv_send_email", "rightslash_send_email");
