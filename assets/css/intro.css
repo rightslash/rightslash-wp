@@ -389,7 +389,7 @@ img.tree_3{position: absolute; right: 15px; bottom: 0;}
    transform: rotate(-4deg);
 }
 .md-modal article input,.md-modal article textarea{ background: none; line-height: 35px; border: none; font-size: 18px; font-family: 'The Girl Next Door', cursive; outline: none;}
-.md-modal article input{width: 355px;}
+.md-modal article input{width: 80%;}
 .md-modal article textarea{width: 100%; resize: none; height: 78px;}
 input.input-box{font-weight: bold;}
 .md-modal p {
@@ -445,9 +445,7 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	.md-modal article {
 	  padding-bottom:10px;
 	}
-	.md-modal article input {
-	  width: 362px;
-	}
+	.md-modal article input{width: 77%;}
 }
 
 @media (max-width: 800px){
@@ -506,9 +504,7 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	  right: 8px;
 	  width: 46px;
 	}
-	.md-modal article input {
-	  width: 260px;
-	}
+	.md-modal article input{width: 75%;}
 }
 @media (max-width: 767px){
 	img.home1 {
@@ -532,9 +528,6 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	  left: 191px;
 	  width: 114px;
 	}
-	.md-modal article input {
-	  width: 248px;
-	}
 }
 @media (max-width: 667px){
 	#plane {
@@ -543,6 +536,7 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	.active .sun img {
 	  width: 244px;
 	}
+	.md-modal article input{width: 73%;}
 }
 @media (max-width: 640px){
 	#plane {
@@ -571,6 +565,9 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	  margin: 46px 0 0 190px;
 	}
 	.md-modal{width: 70%;}
+	img.birds{
+		left:-43%;
+	}
 }
 @media (max-width: 480px){
 	#plane {
@@ -614,13 +611,11 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	  margin-left: 12px;
 	  width: 196px;
 	}
-	img.birds{
-		left:-35%;
-	}
 	.letterbox {
 	  right: 8%;
 	}
 	.client-mail {
 	  width: 49%;
 	}
+	.md-modal article input{width: 70%;}
 }
