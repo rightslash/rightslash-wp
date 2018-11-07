@@ -464,8 +464,9 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	  margin-top: -49px;
   	  width: 295px;
 	}
-	.para1, .para2, .para3, .para4 {
-	  left: 10%;
+	.parasuitWrap{
+		display: none !important;
+		opacity: 0 !important;
 	}
 	#plane {
 	  left: -22%;

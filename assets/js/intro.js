@@ -28,8 +28,8 @@
 		/*
 		*	Clouds function
 		*/
-		//setInterval(cloud1,130);
-		//setInterval(cloud2,200);
+		setInterval(cloud1,130);
+		setInterval(cloud2,200);
 		function cloud1(){
 			$('#near-clouds').animate({
 				left: '-=1',
