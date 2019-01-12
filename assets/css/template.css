@@ -262,7 +262,7 @@ Navbar
 	.navbar-toggler:focus{
 		outline: none;
 	}
-	#main-nav.navbar-shrink .nav-item {
+	#main-nav .nav-item {
 	    padding: .7em .7em!important;
 	    font-size: 17px;
 	}
@@ -302,6 +302,64 @@ Navbar
     font-weight: 500;
     color: #000;
     letter-spacing: 2px;
+}
+
+@media (max-width: 767px){
+	.main-banner {
+	    background-size: 55%;
+	    height: 85vh;
+	}
+	.banner-content {
+	    bottom: 30px;
+	}
+	.banner-content span {
+	    font-size: 22px;
+	}
+	.banner-content span:last-child {
+	    font-size: 24px;
+	}
+}
+@media (max-width: 567px){
+	.main-banner {
+	    background-size: 75%;
+	    height: 90vh;
+	}
+	.banner-content span {
+	    font-size: 21px;
+	    line-height: 1.4;
+	}
+	.banner-content span:last-child {
+	    font-size: 22px;
+	}
+}
+@media (max-width: 480px){
+	.main-banner {
+	    background-size: 82%;
+	}
+	.banner-content {
+	    bottom: 25px;
+	}
+	.banner-content span {
+	    font-size: 20px;
+	    line-height: 1.3;
+	}
+	.banner-content span:last-child {
+	    font-size: 21px;
+	    letter-spacing: 1px;
+	}
+}
+@media (max-width: 375px){
+	.main-banner {
+	    background-size: 90%;
+	    height: 85vh;
+	}
+	.banner-content span {
+	    font-size: 18px;
+	}
+	.banner-content span:last-child {
+	    font-size: 19px;
+	    letter-spacing: 0;
+	}
 }
 
 /*section*/
