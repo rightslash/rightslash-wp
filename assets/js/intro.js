@@ -1,7 +1,7 @@
 ;
 
 (function ($){
-
+	//"use strict"; // Start of use strict
 	/*
 	*	On load Set height for 
 	*	@	#wrapper
@@ -58,10 +58,11 @@
 		*	Calling all animation function step by step
 		*/
 		setTimeout(darkHide,7000); //10001
-		setTimeout(planeStart,2500);
-		setTimeout(parasuits,5500);//20000
-		setTimeout(plane,8500);
-		setTimeout(bird,15000);
+		setTimeout(planeStart,3000);
+		setTimeout(parasuits,5800);//20000
+		setTimeout(plane,8300);
+		setTimeout(bird,14000);
+		setTimeout(unlock_site, 18000);
 		
 
 		/*
@@ -95,6 +96,21 @@
 		function bird(){
 			$('img.birds').animate({left: '110%'},16000);	
 		}
+
+		/*
+		* Site unlock funtion
+		*/
+		function unlock_site(){
+			$('.site-unlock').animate({opacity: 1},1000);
+		}
+
+		$('.site-unlock-btn').on('click', function(){
+			$(this).hide(100);
+			//$('.lamp-light').addClass('light-on');
+			$('#intro-wrapper').slideUp(800);
+			$('.home-container,.navbar').slideDown(300);
+			setCookie('intro', 1, 12);
+		});
 		
 		/*
 		*	Parasuit Menu function
@@ -171,11 +187,17 @@
 		}
 
 
+		/*******************************
+	    *   Function for Set cookie
+	    ********************************/
+	    function setCookie(cname, cvalue, expireDate) {
+	      var d = new Date();
+	      d.setTime(d.getTime() + (expireDate * 24 * 60 * 60 * 1000));
+	      var expires = "expires="+d.toUTCString();
+	      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	    }
+
 		
 	}); 
 
 })(jQuery);
-
-
-
-

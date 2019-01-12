@@ -3,12 +3,15 @@
 /*-------------------------------------------
 	@Structure
 ---------------------------------------------*/
+
 #intro-wrapper {
 	width:100%;
 	margin:0 auto;
 	overflow:hidden;
-	position:relative;
+	position:fixed;
 	z-index:1;
+	top: 0;
+	left: 0;
 }
 .intro-main-content {
 	max-width:1290px;
@@ -48,13 +51,13 @@ img.birds{position:absolute; left:-30%; top:20%; width:155px; z-index: 30;}
 /*Sun function*/
 .sun{width:400px; height:100%; position:absolute; right:0; top:0; z-index:20; text-align:center;}
 .sun img{
-	-webkit-transition:all 8.5s linear; 
-	-moz-transition:all 8.5s linear; 
-	transition:all 8.5s linear; 
+	-webkit-transition:all 7.5s linear; 
+	-moz-transition:all 7.5s linear; 
+	transition:all 7.5s linear; 
 	width:100px; 
 	position: absolute; 
-	top: 95%; 
-	right: 95%;
+	top: 70%; 
+	right: 70%;
 }
 .active .sun img{top: -5%; right: 2%; width: 267px;}
 
@@ -66,7 +69,7 @@ img.birds{position:absolute; left:-30%; top:20%; width:155px; z-index: 30;}
 .plane{background:transparent url(../images/intro/plane.gif) 0 7px no-repeat;}
 
 /*Cloud function*/
-.stage {
+#intro-wrapper .stage {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -97,8 +100,8 @@ img.home1{ margin-top:-102px; margin-right:0; float: right;}
     box-shadow: 0 0 20px 16px rgba(255,255,255,0.8);
     background: rgba(255,255,255,0.7);
 }
-.pump{background:url(../images/intro/pipe.png) no-repeat; width: 28px; height: 30px; position: absolute; left: 24%; bottom: 24px; z-index: 47;}
-.pump img{position: absolute; bottom: 23px; width: 2px; left: 12px;}
+#intro-wrapper .pump{background:url(../images/intro/pipe.png) no-repeat; width: 28px; height: 30px; position: absolute; left: 24%; bottom: 24px; z-index: 47;}
+#intro-wrapper .pump img{position: absolute; bottom: 23px; width: 2px; left: 12px;}
 
 /*Hill Land 2*/
 .hillLand2{width:100%; background:url(../images/intro/land_bg3.png) 0 100% repeat-x; height:131px; position:absolute; left:0; bottom:14px; z-index:55;}
@@ -203,11 +206,46 @@ img.tree_3{position: absolute; right: 15px; bottom: 0;}
 /*Front Land*/
 .frontLand{width:100%; height:132px; background:url(../images/intro/land.png) 0 100% repeat-x; position:absolute; left:0; bottom:0; z-index:200;}
 .contentLand{max-width:1290px; height:inherit; background:url(../images/intro/land_bg1.png) 0 100% no-repeat; margin:0 auto; position: relative;} 
-.fench{margin:46px 0 0 553px;}
+#intro-wrapper .fench{margin:46px 0 0 553px;}
+
+/*Lamp Post*/
+#intro-wrapper .lamp-post{position: absolute; bottom: 7px; left: 17%; z-index: 100; width: 87px; height: 300px; background: url(../images/intro/lamp1.png) left bottom no-repeat; display: none;}
+#intro-wrapper .lamp-light{position: absolute; width: 50px; height: 56px; right: -21px; top: 19px; background-image: url(../images/intro/lamp-light.png); background-repeat: no-repeat; background-position: 0 0;}
+#intro-wrapper .lamp-light.light-on{background-position: -50px 0;}
+
+/*Site unlock*/
+.site-unlock{
+	position: absolute;
+	bottom: 45%;
+	text-align: center;
+	z-index: 20000;
+	width: 100%;
+	opacity: 0;
+}
+.site-unlock-btn{cursor:pointer; color: #2f2b01; font-size: 100px; opacity: 0.35; -webkit-animation: bounce 1s ease-out infinite alternate; animation: bounce 1s ease-out infinite alternate; display: inline-block; position: relative;}
+.site-unlock-btn:hover{opacity: 1;}
+@-webkit-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 13px;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 13px;
+  }
+}
+
 
 /*Letter Box*/
-.letterbox{position: absolute; bottom: 37px; right: 22%; z-index: 2900; width: 84px; height: 152px; background: url(../images/intro/letterbox.png) no-repeat;}
-.letterbox a{
+#intro-wrapper .letterbox{position: absolute; bottom: 37px; right: 22%; z-index: 2900; width: 84px; height: 152px; background: url(../images/intro/letterbox.png) no-repeat;}
+#intro-wrapper .letterbox a{
 	margin: 47px 0 0 13px;
 	display: block;
 	font-size: 13px;
@@ -216,7 +254,7 @@ img.tree_3{position: absolute; right: 15px; bottom: 0;}
 	text-shadow: 1px 2px 2px rgba(0,25,0,0.9);
 }
 .md-trigger{display: none;}
-.contactForm {
+#intro-wrapper .contactForm {
     width: 53px;
     height: 2px;
     position: absolute;
@@ -404,11 +442,11 @@ p.contactInfo-one{margin-top: 0;}
 	color: #000;
 	text-align: center;
 }
-input.sendBtn{ background: none; border:none; font-size: 16px; cursor: pointer; margin-top: -3px;}
-.close{position: absolute; top: 12px; right: 12px; z-index: 200; cursor: pointer;}
+#intro-wrapper input.sendBtn{ background: none; border:none; font-size: 16px; cursor: pointer; margin-top: -3px;}
+#intro-wrapper .close{position: absolute; top: 12px; right: 12px; z-index: 200; cursor: pointer;}
 
 .warning{color:red;}
-p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display: none; color: #0f0eee;}
+#intro-wrapper p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display: none; color: #0f0eee;}
 
 
 /*=============================================*/
@@ -427,18 +465,18 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	  left: 25%;
 	  bottom: 29px;
 	}
-	.letterbox {
+	#intro-wrapper .letterbox {
 	  bottom: 76px;
 	  right: 20%;
 	  width: 80px;
 	  height: 146px;
 	  background-size: 100%;
 	}
-	.letterbox a {
+	#intro-wrapper .letterbox a {
 	  margin: 44px 0 0 14px;
 	  font-size: 12px;
 	}
-	.contactForm {
+	#intro-wrapper .contactForm {
 	  bottom: 110px;
 	  right: 9px;
 	}
@@ -455,7 +493,7 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	.frontLand {
 	  height: 119px;
 	}
-	.fench {
+	#intro-wrapper .fench {
 	  margin: 46px 0 0 431px;
 	}
 	img.home1 {
@@ -477,7 +515,7 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	  bottom: 28px;
 	  width: 175px;
 	}
-	.letterbox {
+	#intro-wrapper .letterbox {
 	  bottom: 69px;
 	  right: 17%;
 	  width: 70px;
@@ -495,11 +533,11 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	  left: 191px;
 	  width: 114px;
 	}
-	.letterbox a {
+	#intro-wrapper .letterbox a {
 	  margin: 38px 0 0 13px;
   	  font-size: 10px;
 	}
-	.contactForm {
+	#intro-wrapper .contactForm {
 	  bottom: 93px;
 	  right: 8px;
 	  width: 46px;
@@ -585,7 +623,7 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	.logoBoard {
 	  width: 162px;
 	  height: 123px;
-	  bottom: 50px;
+	  bottom: 27px;
 	  left: 9%;
 	}
 	.logoBoard img {
@@ -611,7 +649,7 @@ p.thankyou{font-family: 'The Girl Next Door', cursive; font-size: 20px; display:
 	  margin-left: 12px;
 	  width: 196px;
 	}
-	.letterbox {
+	#intro-wrapper .letterbox {
 	  right: 8%;
 	}
 	.client-mail {
