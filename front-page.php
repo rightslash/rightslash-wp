@@ -16,9 +16,9 @@
 
 <div class="home-container">
 	<div class="main-banner">
-		<div class="banner-content">
-			<span>Talent without working hard is nothing. We have no special talent.</span><br>
-			<span>We are only passionately curious.</span>
+		<img src="<?php echo RS_THEME_ASSET ?>/images/rs-banner-1.png" class="banner-img" alt="Right Slash Banner">
+		<div class="banner-content" id="typed">
+			
 		</div>
 	</div>
 

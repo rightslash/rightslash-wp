@@ -44,6 +44,7 @@
 		wp_enqueue_script("easing-js", "//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js", array("jquery"), VERSION, true);	
 		wp_enqueue_script("circle-progress-js", "//cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.1.3/circle-progress.min.js", array("jquery"), VERSION, true);	
 		wp_enqueue_script("owl-carousel-js", RS_THEME_ASSET . "/js/owl.carousel.min.js", array("jquery"), VERSION, true);	
+		wp_enqueue_script("typed-js", RS_THEME_ASSET . "/js/typed.min.js", array("jquery"), VERSION, true);	
 		wp_enqueue_script("rightslash-theme-js", RS_THEME_ASSET . "/js/theme.js", array("jquery"), VERSION, true);
 	
 	}
