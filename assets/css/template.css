@@ -367,10 +367,13 @@ Navbar
 	padding: 90px 0 30px;
 }
 
+/*why Right Slash*/
 .why-rs{
 	background:#151515;
 	text-align: center;
 	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 /*.why-rs:before{
 	content: "";
@@ -425,6 +428,34 @@ Navbar
     background-repeat: no-repeat;
     background-size: cover;
 }*/
+
+@media (max-width: 767px){
+	.why-rs-content {
+	    margin-bottom: 50px;
+	}
+	.why-rs h1 {
+	    margin-bottom: 8px;
+	    font-size: 32px;
+	}
+	.why-rs h1+p {
+	    margin-bottom: 60px;
+	}
+}
+@media (max-width: 480px){
+	.why-rs {
+	    padding-top: 70px;
+	    padding-bottom: 20px;
+	}
+	.why-rs-content h2 {
+	    margin-bottom: 15px;
+	}
+	.why-rs-content {
+	    margin-bottom: 30px;
+	}
+	.why-rs h1 {
+	    font-size: 30px;
+	}
+}
 
 /*process*/
 .process-block{
