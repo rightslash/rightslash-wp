@@ -366,6 +366,11 @@ Navbar
 .content-section{
 	padding: 90px 0 30px;
 }
+@media (max-width: 767px){
+	.content-section{
+		padding-top: 70px;
+	}
+}
 
 /*why Right Slash*/
 .why-rs{
@@ -443,7 +448,6 @@ Navbar
 }
 @media (max-width: 480px){
 	.why-rs {
-	    padding-top: 70px;
 	    padding-bottom: 20px;
 	}
 	.why-rs-content h2 {
@@ -454,6 +458,70 @@ Navbar
 	}
 	.why-rs h1 {
 	    font-size: 30px;
+	}
+}
+
+/*about*/
+.about-section{
+	text-align: center;
+}
+.about-section h2{
+	margin-bottom: 10px;
+    font-size: 32px;
+    color: #42de00;
+}
+.about-section h2 span{
+	color: #1e6500;
+}
+.about-section h2+p {
+    margin-bottom: 10px;
+    color: #7b7b7b;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about-desc {
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4a4c4a;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto 45px;
+}
+.about-section h3{
+	font-size: 27px;
+	margin-bottom: 35px;
+}
+.team-block{
+	margin-bottom: 35px;
+}
+.team-block img{
+	width: 100px;
+	border-radius: 50%;
+	filter: grayscale(90%) opacity(0.95);
+	margin-bottom: 15px;
+}
+.team-block h4{
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 2px;
+	text-transform: uppercase;
+}
+.team-block span{
+	font-size: 14px;
+	color: #585858;
+	font-weight: 400;
+}
+
+@media (max-width: 480px){
+	.about-desc{
+		padding: 0;
+	}
+	.about-section h3,
+	.team-block{
+		margin-bottom: 25px;
 	}
 }
 
@@ -542,8 +610,6 @@ Navbar
     letter-spacing: 1px;
     text-align: center;
 }
-
-
 .skillbar {
     position:relative;
     display:block;
@@ -563,7 +629,6 @@ Navbar
     transition-property:width, background-color;
     border-radius: 3px;
 }
-
 .skillbar-title {
     position:absolute;
     top:0;
@@ -970,57 +1035,7 @@ Navbar
 	opacity: 1;
 }
 
-/*about*/
-.about-section{
-	text-align: center;
-}
-.about-section h2{
-	margin-bottom: 10px;
-    font-size: 32px;
-    color: #42de00;
-}
-.about-section h2 span{
-	color: #1e6500;
-}
-.about-section h2+p {
-    margin-bottom: 10px;
-    color: #7b7b7b;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-.about-desc {
-    padding: 0 25px;
-    font-size: 16px;
-    line-height: 28px;
-    color: #4a4c4a;
-    max-width: 900px;
-    width: 100%;
-    margin: 0 auto 45px;
-}
-.about-section h3{
-	font-size: 27px;
-	margin-bottom: 35px;
-}
-.team-block{
-	margin-bottom: 35px;
-}
-.team-block img{
-	width: 100px;
-	border-radius: 50%;
-	filter: grayscale(90%) opacity(0.95);
-	margin-bottom: 15px;
-}
-.team-block h4{
-	font-size: 14px;
-	font-weight: 600;
-	margin-bottom: 2px;
-	text-transform: uppercase;
-}
-.team-block span{
-	font-size: 14px;
-	color: #585858;
-	font-weight: 400;
-}
+
 
 
 

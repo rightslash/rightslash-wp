@@ -77,31 +77,31 @@
 
 			<h3>Our Team</h3>
 			<div class="row justify-content-md-center">
-				<div class="col-md-2 team-block">
+				<div class="col-md-2 col-sm-4 team-block">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/gabrial.jpg" alt="">
 					<h4>Gabrial GSM</h4>
 					<span>Founder &amp; CEO</span>
 				</div>
 
-				<div class="col-md-2 team-block">
+				<div class="col-md-2 col-sm-4 team-block">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/nick.jpg" alt="">
 					<h4>Nick Patrick</h4>
 					<span>Project Manager</span>
 				</div>
 
-				<div class="col-md-2 team-block">
+				<div class="col-md-2 col-sm-4 team-block">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" alt="">
 					<h4>Krishan Magube</h4>
 					<span>Developer</span>
 				</div>
 
-				<div class="col-md-2 team-block">
+				<div class="col-md-2 col-sm-4 team-block">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/mahbub.jpg" alt="">
 					<h4>Mahbub Hasan</h4>
 					<span>Developer</span>
 				</div>
 
-				<div class="col-md-2 team-block">
+				<div class="col-md-2 col-sm-4 team-block">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/victoria.jpg" alt="">
 					<h4>Victoria Farare</h4>
 					<span>Developer</span>
@@ -116,19 +116,19 @@
 					<span>Web Research Analyst</span>
 				</div>-->
 
-				<div class="col-md-2 team-block">
+				<div class="col-md-2 col-sm-4 team-block">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" alt="">
 					<h4>Krish Martin</h4>
 					<span>Marketing Officer</span>
 				</div>
 
-				<div class="col-md-2 team-block">
+				<div class="col-md-2 col-sm-4 team-block">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/ramy.jpg" alt="">
 					<h4>Clement Ramy</h4>
 					<span>Head of Design</span>
 				</div>
 
-				<div class="col-md-2 team-block">
+				<div class="col-md-2 col-sm-4 team-block">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/samuel.jpg" alt="">
 					<h4>Samuel Victor</h4>
 					<span>Designer</span>
