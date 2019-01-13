@@ -21,8 +21,8 @@
 	      if (target.length) {
 	        $('html, body').animate({
 	          scrollTop: (target.offset().top - 50)
-	        }, 1000, "easeInOutExpo");
-	        return false;
+	        }, 2000, "easeOutQuad");
+	        //return false;
 	      }
 	    }
 
@@ -49,11 +49,6 @@
 	navbarCollapse(900);
 	// Collapse the navbar when page is scrolled
 	$(window).scroll(navbarCollapse);
-
-
-	
-
-
 
 
 
@@ -112,23 +107,22 @@
 			//$(window).off('scroll');
 		}
 
-
 	});
 
 
 
-/*testimonial*/
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    responsiveClass:true,
-    items:1,
-    nav:false,
-    dots:true,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    autoplaySpeed: 3500
-});
+	/*testimonial*/
+	$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    margin:10,
+	    responsiveClass:true,
+	    items:1,
+	    nav:false,
+	    dots:true,
+	    autoplay:true,
+	    autoplayTimeout:3000,
+	    autoplayHoverPause:true,
+	    autoplaySpeed: 3500
+	});
 
 })(jQuery);
