@@ -322,8 +322,8 @@ Navbar
 @media (max-width: 567px){
 	.banner-img{
 		width: 72%;
-		margin-top: 130px;
-		margin-bottom: 25px;
+		margin-top: 140px;
+		margin-bottom: 30px;
 	}
 	.banner-content span {
 	    font-size: 21px;
@@ -338,7 +338,7 @@ Navbar
 		width: 78%;
 	}
 	.banner-content {
-	    padding-bottom: 20px;
+	    padding-bottom: 25px;
 	}
 	.banner-content span {
 	    font-size: 20px;
