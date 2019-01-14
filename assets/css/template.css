@@ -593,6 +593,7 @@ Navbar
 @media (max-width: 767px){
 	.project-status-block {
 	    padding-bottom: 30px;
+	    background-position: center;
 	}
 }
 
