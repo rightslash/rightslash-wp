@@ -525,6 +525,77 @@ Navbar
 	}
 }
 
+
+/*project-status*/
+.project-status-block{
+	padding-bottom: 60px;
+	text-align: center;
+	background-image: url(../images/mountain-bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.circle {
+	width: 200px;
+    margin: 0 5px 40px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+	vertical-align: top;
+}
+.circle canvas{
+	max-width: 100%;
+	max-height: 100%;
+}
+.circle-content{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+.circle-content i{
+	font-size: 25px;
+	margin-top: 30px;
+	color: #e2e2e2;
+	margin-bottom: 17px;
+}
+.circle-content span{
+	font-size: 50px;
+	font-weight: 300;
+	display: block;
+	line-height: 1;
+	margin-bottom: 5px;
+	color: #f5f5f5;
+}
+.circle-content strong{
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px){
+    .circle-content i {
+	    margin-bottom: 12px;
+	}
+	.circle-content span {
+	    font-size: 45px;
+	}
+	.circle-content strong {
+	    font-size: 14px;
+	}
+}
+@media (max-width: 900px){
+	.circle {
+		width: 100%;
+	}
+}
+@media (max-width: 767px){
+	.project-status-block {
+	    padding-bottom: 30px;
+	}
+}
+
 /*process*/
 .process-block{
 	text-align: center;
@@ -668,51 +739,7 @@ Navbar
 }
 
 
-/*project-status*/
-.project-status-block{
-	padding-bottom: 60px;
-	text-align: center;
-	
 
-	background-image: url(../images/multiple-display-nature-monochrome-mountains-wallpaper.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-}
-.circle {
-	width: 200px;
-    margin: 0 5px 40px;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-	vertical-align: top;
-}
-.circle-content{
-	position: absolute;
-	top: 0;
-	width: 100%;
-	bottom: 0;
-	text-align: center;
-}
-.circle-content i{
-	font-size: 25px;
-	margin-top: 30px;
-	color: #e2e2e2;
-	margin-bottom: 17px;
-}
-.circle-content span{
-	font-size: 50px;
-	font-weight: 300;
-	display: block;
-	line-height: 1;
-	margin-bottom: 5px;
-	color: #f5f5f5;
-}
-.circle-content strong{
-	font-size: 18px;
-	font-weight: 300;
-	text-transform: uppercase;
-	color: #fff;
-}
 
 /*testimonial*/
 .testimonial-block{

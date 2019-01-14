@@ -55,20 +55,33 @@
 	/**
 	 * Circle progress 
 	 *Exampe from https://kottenator.github.io/jquery-circle-progress/
-	 */
-	var progressBarOptions = {
-		startAngle: -1.5,
-		size: 200,
-		value: 1,
-		thickness: '2',
-		animation: {
-	        duration: 3700,
-	        easing: 'circleProgressEasing'
-	    },
-		fill: {
-			color: "#e2e2e2" //32ec00
-		}
-	};
+	*/
+	//jQuery(window).on('scroll', function(){
+		var progressBarOptions = {
+			startAngle: -1.5,
+			size: 200,
+			value: 1,
+			thickness: '2',
+			animation: {
+		        duration: 3700,
+		        easing: 'circleProgressEasing'
+		    },
+			fill: {
+				color: "#e2e2e2" //32ec00
+			}
+		};
+		//var	progressT = jQuery('.project-status-block').offset().top;
+		
+		//if(winT + winH > progressT){
+			$(".circle")
+				.circleProgress(progressBarOptions)
+				.one("circle-animation-progress", function(event, progress, stepValue) {
+					//$(this).find("strong").text(String(stepValue.toFixed(2)).substr(1));
+			});
+		//}
+
+	//});
+	
 
 	//Typed
 	document.addEventListener('DOMContentLoaded', function() {
@@ -96,19 +109,7 @@
 		      },3000);
 		    });
 		}
-
-		var progressT = jQuery('.project-status-block').offset().top;
-		if(winT + winH > progressT){
-			$(".circle")
-				.circleProgress(progressBarOptions)
-				.on("circle-animation-progress", function(event, progress, stepValue) {
-					//$(this).find("strong").text(String(stepValue.toFixed(2)).substr(1));
-			});
-			//$(window).off('scroll');
-		}
-
 	});
-
 
 
 	/*testimonial*/
