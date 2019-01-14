@@ -196,14 +196,14 @@
 						<div class="skillbar-bar"><div class="skill-bar-percent">80%</div></div>
 					</div>
 					
-					<div class="skillbar clearfix " data-percent="75%">
+					<div class="skillbar clearfix " data-percent="85%">
 						<div class="skillbar-title"><span>Bootstrap / Foundation / Skeleton</span></div>
-						<div class="skillbar-bar"><div class="skill-bar-percent">75%</div></div>
+						<div class="skillbar-bar"><div class="skill-bar-percent">85%</div></div>
 					</div>
 
-					<div class="skillbar clearfix " data-percent="70%">
+					<div class="skillbar clearfix " data-percent="75%">
 						<div class="skillbar-title"><span>Less / Sass</span></div>
-						<div class="skillbar-bar"><div class="skill-bar-percent">70%</div></div>
+						<div class="skillbar-bar"><div class="skill-bar-percent">75%</div></div>
 					</div>
 
 					<div class="skillbar clearfix " data-percent="90%">
