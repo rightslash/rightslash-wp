@@ -699,6 +699,104 @@ Navbar
 	}
 }
 
+/*portfolio*/
+.portfolio-block{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.portfolio-block h2{
+	margin-bottom: 10px;
+    font-size: 32px;
+    text-align: center;
+}
+.portfolio-block h2+p{
+	margin-bottom: 60px;
+    color: #696969;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.portfolio-gallery{
+	padding-left: 0;
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.portfolio-gallery li{
+	width: 24.6%;
+	padding: 0 10px 20px;
+	display: inline-block;
+}
+.portfolio-gallery li figure{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin:0;
+}
+.portfolio-gallery li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	transition: all .3s ease-in-out;
+	transform: scale(1.2);
+}
+.portfolio-gallery li figure figcaption{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-content: end;
+	color: #fff;
+	transform: translate3d(0, 1rem, 0);
+	transition: all .3s ease-in-out;
+	pointer-events: none;
+	padding: 10px;
+	background: rgba(0,0,0,0.8);
+}
+.portfolio-gallery li figure figcaption h5{
+	line-height: 1.3;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.portfolio-gallery li figure figcaption p{
+	font-size: 15px;
+	color: #f5f5f5;
+}
+.portfolio-gallery li figure:hover img{
+	transform: scale(1);
+}
+.portfolio-gallery li figure:hover figcaption{
+	transform: translate3d(0, 0, 0);
+	top:0;
+}
+
+@media (max-width: 950px){
+	.portfolio-gallery li {
+	    width: 33%;
+	}
+}
+@media (max-width: 767px){
+	.portfolio-gallery li {
+	    width: 50%;
+	}
+}
+@media (max-width: 530px){
+	.portfolio-block{
+		padding-top: 50px;
+	}
+	.portfolio-block h2+p {
+	    margin-bottom: 40px;
+	}
+	.portfolio-gallery li {
+	    width: 100%;
+	}
+}
+
 /*process*/
 .process-block{
 	text-align: center;
@@ -824,77 +922,7 @@ Navbar
 	background: #a9a9a9;
 }
 
-/*portfolio*/
-.portfolio-block h2{
-	margin-bottom: 10px;
-    font-size: 32px;
-    text-align: center;
-}
-.portfolio-block h2+p{
-	margin-bottom: 60px;
-    color: #696969;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-align: center;
-}
-.portfolio-gallery{
-	padding-left: 0;
-	width: 100%;
-	margin-bottom: 30px;
-	text-align: center;
-}
-.portfolio-gallery li{
-	width: 24.6%;
-	padding: 0 10px 20px;
-	display: inline-block;
-}
-.portfolio-gallery li figure{
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
-	position: relative;
-	margin:0;
-}
-.portfolio-gallery li img{
-	width: 100%;
-	height: 100%;
-	display: block;
-	object-fit: cover;
-	transition: all .3s ease-in-out;
-	transform: scale(1.2);
-}
-.portfolio-gallery li figure figcaption{
-	position: absolute;
-	left: 0;
-	top: 100%;
-	width: 100%;
-	height: 100%;
-	display: grid;
-	align-content: end;
-	color: #fff;
-	transform: translate3d(0, 1rem, 0);
-	transition: all .3s ease-in-out;
-	pointer-events: none;
-	padding: 10px;
-	background: rgba(0,0,0,0.8);
-}
-.portfolio-gallery li figure figcaption h5{
-	line-height: 1.3;
-    font-weight: 700;
-    font-size: 19px;
-    margin-bottom: 10px;
-}
-.portfolio-gallery li figure figcaption p{
-	font-size: 15px;
-	color: #f5f5f5;
-}
-.portfolio-gallery li figure:hover img{
-	transform: scale(1);
-}
-.portfolio-gallery li figure:hover figcaption{
-	transform: translate3d(0, 0, 0);
-	top:0;
-}
+
 
 /*flash block*/
 .flash-order-block{
