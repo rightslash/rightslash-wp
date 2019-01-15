@@ -140,6 +140,13 @@ h2{
 	display: none;
 }
 
+@media (max-width: 767px){
+	#intro-wrapper{display: none;}
+	.home-container,.navbar{
+		display: block;
+	}
+}
+
 /*button*/
 .btn-rs{
 	border-radius: 5px;

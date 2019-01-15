@@ -21,6 +21,13 @@
 	height: inherit;
 }
 
+@media (max-width: 767px){
+	#intro-wrapper{display: none;}
+	.home-container,.navbar{
+		display: block;
+	}
+}
+
 
 /*-------------------------------------------
 	@Container part

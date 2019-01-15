@@ -25,6 +25,13 @@
 
 	$(window).load(function() {
 
+		var devWidth = $(window).width();
+		
+		if(devWidth <= 767){
+			$('#intro-wrapper').hide(100);
+			$('.home-container,.navbar').show(100);
+			setCookie('intro', 1, 120);
+		} 
 		/*
 		*	Clouds function
 		*/
@@ -50,8 +57,6 @@
 		$('.dark').animate({
 			opacity:0
 		},7200);
-
-		var devWidth = $(window).width();
 		
 		
 		/*
@@ -109,7 +114,7 @@
 			//$('.lamp-light').addClass('light-on');
 			$('#intro-wrapper').slideUp(800);
 			$('.home-container,.navbar').slideDown(300);
-			setCookie('intro', 1, 12);
+			setCookie('intro', 1, 120);
 		});
 		
 		/*
