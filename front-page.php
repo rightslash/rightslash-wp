@@ -683,7 +683,7 @@
 				<div class="col-md-8">
 					<div class="row">
 					
-						<div class="col-md-4">
+						<div class="col-sm-4">
 							<ul class="footer-nav">
 								<li><a href="#">Services</a></li>
 								<li><a href="#">About us</a></li>
@@ -696,7 +696,7 @@
 							</ul>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-sm-4">
 							<ul class="footer-nav">
 								<li><a href="#">FAQ</a></li>
 								<li><a href="#">Help Center</a></li>
@@ -705,7 +705,7 @@
 							</ul>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-sm-4">
 							<ul class="footer-nav">
 								<li><a href="#">PSD to HTML</a></li>
 								<li><a href="#">PSD to Wordpress</a></li>

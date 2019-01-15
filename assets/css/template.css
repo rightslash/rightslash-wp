@@ -199,7 +199,7 @@ Navbar
     padding-top: 0;
     padding-bottom: 0;
     
-	background: #25bf0a;
+	background: #1db902; /*25bf0a*/
 	border-bottom:1px solid rgba(255,255,255,0.3);
 }
 #main-nav.navbar-shrink .nav-item{
@@ -1317,4 +1317,15 @@ footer{
 	color: #737373;
 	font-size: 14px;
 	text-align: center;
+}
+
+@media (max-width: 767px){
+	.footer-rights-block{
+		border-left: none;
+		padding-left: 15px;
+		padding-top: 25px;
+	}
+	.footer-logo img {
+	    width: 110px;
+	}
 }
