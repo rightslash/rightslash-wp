@@ -935,73 +935,6 @@ Navbar
 	}
 }
 
-/*process*/
-.process-block{
-	text-align: center;
-	padding-top: 70px;
-}
-.process-block h2{
-	margin-bottom: 10px;
-	font-size: 32px;
-}
-.process-block h2+p{
-	margin-bottom: 60px;
-	color: #696969;
-    font-size: 18px;
-    letter-spacing: 1px;
-}
-
-.process-step{
-	position: relative;
-	padding: 0 40px 35px;
-}
-.process-icon{
-	width: 105px;
-	height: 105px;
-	text-align: center;
-	background: #383838;
-	border-radius: 50%;
-	margin: 0 auto 25px;
-	position: relative;
-}
-.process-icon:before{
-	content: attr(data-step);
-	font-size: 5.5em;
-    position: absolute;
-    font-weight: 800;
-    color: #ffffff;
-    text-shadow: 0 0 1px rgba(33, 33, 33,0.5);
-    left: 0;
-    top: 18%;
-    z-index: 1;
-}
-.process-icon i{
-	color: #ffb900;
-    font-size: 49px;
-    line-height: 84px;
-    position: relative;
-    z-index: 3;
-}
-
-.process-step h3{
-	font-size: 18px;
-    margin-bottom: 15px;
-    padding-top: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #333;
-}
-.process-step p{
-	font-size: 17px;
-	color: #585858;
-	line-height: 1.5;
-}
-
-
-
-
-
 
 /*testimonial*/
 .testimonial-block{
@@ -1059,6 +992,86 @@ Navbar
 .testimonial-block button.owl-dot.active{
 	background: #a9a9a9;
 }
+
+/*process*/
+.process-block{
+	text-align: center;
+	padding-top: 70px;
+}
+.process-block h2{
+	margin-bottom: 10px;
+	font-size: 32px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.process-block h2+p{
+	margin-bottom: 60px;
+	color: #696969;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+	padding-right: 15px;
+}
+.process-step{
+	position: relative;
+	padding: 0 40px 35px;
+}
+.process-icon{
+	width: 105px;
+	height: 105px;
+	text-align: center;
+	background: #383838;
+	border-radius: 50%;
+	margin: 0 auto 25px;
+	position: relative;
+}
+.process-icon:before{
+	content: attr(data-step);
+	font-size: 5.5em;
+    position: absolute;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 0 0 1px rgba(33, 33, 33,0.5);
+    left: 0;
+    top: 18%;
+    z-index: 1;
+}
+.process-icon i{
+	color: #ffb900;
+    font-size: 49px;
+    line-height: 84px;
+    position: relative;
+    z-index: 3;
+}
+
+.process-step h3{
+	font-size: 18px;
+    margin-bottom: 15px;
+    padding-top: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+}
+.process-step p{
+	font-size: 17px;
+	color: #585858;
+	line-height: 1.5;
+}
+
+@media (max-width: 767px){
+	.process-block{
+		padding-bottom: 0;
+	}
+	.process-block h2{
+		font-size: 30px;
+	}
+	.process-block h2+p{
+		margin-bottom: 45px;
+	}
+}
+
+
 
 
 
