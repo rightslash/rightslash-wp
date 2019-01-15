@@ -372,11 +372,11 @@
 	<div class="flash-order-block">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-8">
+				<div class="col-sm-8 col-xs-12 text-sm-left text-center">
 					<p>Impressed with our work?</p>
 					<h4>Start building your business with <span>Right Slash</span></h4>
 				</div>
-				<div class="col text-md-right">
+				<div class="col text-sm-right text-center">
 					<a href="#" class="btn btn-rs">Order Now</a>
 				</div>
 			</div>
@@ -387,7 +387,7 @@
 		<section class="content-section service-section psdtohtml">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-5 text-md-right order-md-12">
+					<div class="col-md-5 text-md-right text-center order-md-12">
 						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-html.png" alt="">
 					</div>
 					<div class="col-md-7 order-md-1">
@@ -407,7 +407,7 @@
 		<section class="content-section service-section psdtowp">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-5 text-md-left">
+					<div class="col-md-5 text-md-left text-center">
 						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-wp.png" alt="">
 					</div>
 					<div class="col-md-7">
@@ -427,7 +427,7 @@
 		<section class="content-section service-section psdtoemail">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-5 text-md-right order-md-12">
+					<div class="col-md-5 text-md-right text-center order-md-12">
 						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-email.png" alt="">
 					</div>
 					<div class="col-md-7 order-md-1">
@@ -447,7 +447,7 @@
 		<section class="content-section service-section graphicsdesign">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-5 text-md-left">
+					<div class="col-md-5 text-md-left text-center">
 						<img src="<?php echo RS_THEME_ASSET ?>/images/graphic-design.png" alt="">
 					</div>
 					<div class="col-md-7">
@@ -581,11 +581,11 @@
 	<div class="flash-order-block">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-8">
-					<p>Impressed with our work flow?</p>
-					<h4>Start your project with <span>Right Slash</span></h4>
+				<div class="col-sm-8 col-xs-12 text-sm-left text-center">
+					<p>Impressed with our work?</p>
+					<h4>Start building your business with <span>Right Slash</span></h4>
 				</div>
-				<div class="col text-md-right">
+				<div class="col text-sm-right text-center">
 					<a href="#" class="btn btn-rs">Order Now</a>
 				</div>
 			</div>

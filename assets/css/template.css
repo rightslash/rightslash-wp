@@ -31,7 +31,9 @@ h2{
 	font-size: 30px;
 	margin-bottom: 15px;
 }
-
+.btn.focus, .btn:focus{
+	box-shadow: none;
+}
 
 /*-------------------------------------------
 	@Structure
@@ -700,14 +702,12 @@ Navbar
 }
 
 /*portfolio*/
-.portfolio-block{
-	padding-left: 15px;
-	padding-right: 15px;
-}
 .portfolio-block h2{
 	margin-bottom: 10px;
     font-size: 32px;
     text-align: center;
+    padding-left: 15px;
+	padding-right: 15px;
 }
 .portfolio-block h2+p{
 	margin-bottom: 60px;
@@ -715,6 +715,8 @@ Navbar
     font-size: 18px;
     letter-spacing: 1px;
     text-align: center;
+    padding-left: 15px;
+	padding-right: 15px;
 }
 .portfolio-gallery{
 	padding-left: 0;
@@ -794,6 +796,142 @@ Navbar
 	}
 	.portfolio-gallery li {
 	    width: 100%;
+	}
+}
+
+/*flash block*/
+.flash-order-block{
+	padding: 60px 0;
+	background-color: #313131;
+}
+.flash-order-block p{
+	color: #7b7b7b;
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+.flash-order-block h4{
+	color: #efefef;
+	font-size: 24px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.flash-order-block h4 span{
+	color: #ffb102;
+}
+.flash-order-block .btn-rs{
+	background-color: #6f6f6f;
+	font-weight: 400;
+}
+.flash-order-block .btn-rs:hover{
+	background-color: #66e605;
+	color: #fff;
+}
+
+@media (max-width: 575px){
+	.flash-order-block{
+		padding: 50px 0;
+	}
+	.flash-order-block h4 {
+	    font-size: 25px;
+	    margin-bottom: 20px;
+	    line-height: 1.3;
+	}
+}
+
+
+/*service*/
+.service-section{
+	padding: 90px 0;
+}
+.service-section h3{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.service-desc{
+	font-size: 16px;
+	color: #757474;
+}
+.service-meta{
+	font-size: 18px;
+	font-weight: 400;
+}
+.service-section img{
+	max-width: 100%;
+	width: auto;
+}
+.service-price{
+	font-weight: 600;
+	font-size: 22px;
+	color: #000;
+}
+.psdtoemail{
+	background: #f3f3f3;
+}
+.psdtowp{
+	background-color: #0188f7;
+}
+.psdtohtml h3 span{
+	color: #23de00;
+}
+.psdtowp h3 span{
+	color: #001640;
+}
+.psdtoemail h3 span{
+	color: #0188f7;
+}
+.psdtowp h3,
+.psdtowp .service-meta{
+	color: #fff;
+}
+.psdtowp .service-desc{
+	color: #f3f3f3;
+}
+.psdtowp .service-price{
+	color: #f7ff00;
+}
+.graphicsdesign h3{
+	color: #2c9400;
+}
+.graphicsdesign h3 span{
+	color: #4ee600;
+}
+.service-btn-group{
+	padding-top: 15px;
+}
+.rs-btn-divider{
+	padding: 0 5px;
+}
+.psdtowp .order-btn{
+	background-color: #fff;
+	color: #0067bb;
+}
+.psdtoemail .order-btn{
+	background-color: #0188f7;
+}
+.psdtowp .rs-btn-divider{
+	color: #a9d8ff;
+}
+.psdtowp .rs-quote-link{
+	color: #fff;
+}
+
+@media (max-width: 767px){
+	.service-section{
+		padding: 50px 0;
+		text-align: center;
+	}
+	.service-section img{
+		margin-bottom: 30px;
+	}
+	.service-price {
+	    font-size: 25px;
+	}
+}
+@media (max-width: 350px){
+	.rs-btn-divider {
+	    display: block;
 	}
 }
 
@@ -924,107 +1062,9 @@ Navbar
 
 
 
-/*flash block*/
-.flash-order-block{
-	padding: 60px 0;
-	background-color: #313131;
-}
-.flash-order-block p{
-	color: #7b7b7b;
-	font-size: 22px;
-	margin-bottom: 10px;
-	font-weight: 400;
-}
-.flash-order-block h4{
-	color: #efefef;
-	font-size: 24px;
-	margin-bottom: 0;
-	text-transform: uppercase;
-}
-.flash-order-block h4 span{
-	color: #ffb102;
-}
-.flash-order-block .btn-rs{
-	background-color: #6f6f6f;
-	font-weight: 300;
-}
 
-/*service*/
-.service-section{
-	padding: 90px 0;
-}
-.service-section h3{
-	font-size: 35px;
-	font-weight: 600;
-	margin-bottom: 15px;
-}
-.service-desc{
-	font-size: 16px;
-	color: #757474;
-}
-.service-meta{
-	font-size: 18px;
-	font-weight: 400;
-}
-.service-section img{
-	max-width: 100%;
-	width: auto;
-}
-.service-price{
-	font-weight: 600;
-	font-size: 22px;
-	color: #000;
-}
-.psdtoemail{
-	background: #f3f3f3;
-}
-.psdtowp{
-	background-color: #0188f7;
-}
-.psdtohtml h3 span{
-	color: #23de00;
-}
-.psdtowp h3 span{
-	color: #001640;
-}
-.psdtoemail h3 span{
-	color: #0188f7;
-}
-.psdtowp h3,
-.psdtowp .service-meta{
-	color: #fff;
-}
-.psdtowp .service-desc{
-	color: #f3f3f3;
-}
-.psdtowp .service-price{
-	color: #f7ff00;
-}
-.graphicsdesign h3{
-	color: #2c9400;
-}
-.graphicsdesign h3 span{
-	color: #4ee600;
-}
-.service-btn-group{
-	padding-top: 15px;
-}
-.rs-btn-divider{
-	padding: 0 5px;
-}
-.psdtowp .order-btn{
-	background-color: #fff;
-	color: #0067bb;
-}
-.psdtoemail .order-btn{
-	background-color: #0188f7;
-}
-.psdtowp .rs-btn-divider{
-	color: #a9d8ff;
-}
-.psdtowp .rs-quote-link{
-	color: #fff;
-}
+
+
 
 /*blog*/
 .blog-section{
