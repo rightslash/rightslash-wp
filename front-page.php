@@ -597,9 +597,9 @@
 		
 		<div class="container">
 			<div class="row">
-				<!--<div class="col"><p class="text-sm-center">Sorry! no blog post to show.</p></div>-->
+				<div class="col"><p class="text-center">Sorry! no blog post to show.</p></div>
 				
-				<div class="col-md-4 blog-section-post">
+				<?php /*<div class="col-md-4 blog-section-post">
 					<figure>
 						<img src="<?php echo RS_THEME_ASSET ?>/images/blog/blog-1.jpg" alt="">
 					</figure>
@@ -642,7 +642,7 @@
 					</div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque possimus quod ab, saepe inventore sit sequi architecto minus!</p>
 					<a href="#">Read more..</a>
-				</div>
+				</div> */ ?>
 			</div>
 			
 		</div>
@@ -663,17 +663,15 @@
 
 	<section class="content-section mail-subscribe-block">
 		<div class="container">
-			<div class="row justify-content-md-center">
-				<div class="col-md-6">
+			<div class="row justify-content-center">
+				<div class="subscribe-form">
 					<h4>Don't wanna order now?</h4>
 					<p>Subscribe to get in touch</p>
 					
-					<div class="subscribe-form">
-						<form class="form-inline">
-						    <input type="text" class="form-control" placeholder="email@example.com" value="">
-						  	<button type="submit" class="btn btn-black btn-submit">Subscribe</button>
-						</form>
-					</div>
+					<form class="form-inline">
+					    <input type="text" class="form-control" placeholder="email@example.com" value="">
+					  	<button type="submit" class="btn btn-black btn-submit">Subscribe</button>
+					</form>
 				</div>
 			</div>
 		</div>

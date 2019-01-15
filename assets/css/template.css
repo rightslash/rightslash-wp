@@ -1172,8 +1172,16 @@ Navbar
 	opacity: 1;
 }
 
-
-
+@media (max-width: 1024px){
+	.intro-flash-container{
+		height: 400px;
+	}
+}
+@media (max-width: 767px){
+	.intro-flash{
+		display: none;
+	}
+}
 
 
 /*subscribe*/
@@ -1197,6 +1205,13 @@ Navbar
 	color: #3e3e3e;
     font-size: 17px;
     letter-spacing: 2px;
+}
+.subscribe-form{
+	max-width: 100%;
+	width: 520px;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .subscribe-form .form-inline input{
 	width: 70%;
@@ -1223,6 +1238,19 @@ Navbar
     font-weight: normal;
     text-transform: uppercase;
 }
+
+@media (max-width: 575px){
+	.subscribe-form .form-inline input{
+		width: 100%;
+		text-align: center;
+		margin: 0 0 15px;
+	}
+	.subscribe-form .form-inline button{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 
 /*footer*/
 footer{
