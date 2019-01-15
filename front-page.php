@@ -611,7 +611,7 @@
 						</ul>
 					</div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque possimus quod ab, saepe inventore sit sequi architecto minus!</p>
-					<a href="#">Read mnore..</a>
+					<a href="#">Read more..</a>
 				</div>
 
 				<div class="col-md-4 blog-section-post">
@@ -626,7 +626,7 @@
 						</ul>
 					</div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque possimus quod ab, saepe inventore sit sequi architecto minus!</p>
-					<a href="#">Read mnore..</a>
+					<a href="#">Read more..</a>
 				</div>
 
 				<div class="col-md-4 blog-section-post">
@@ -641,7 +641,7 @@
 						</ul>
 					</div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque possimus quod ab, saepe inventore sit sequi architecto minus!</p>
-					<a href="#">Read mnore..</a>
+					<a href="#">Read more..</a>
 				</div>
 			</div>
 			

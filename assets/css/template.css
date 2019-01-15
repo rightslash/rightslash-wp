@@ -1072,13 +1072,6 @@ Navbar
 }
 
 
-
-
-
-
-
-
-
 /*blog*/
 .blog-section{
 	padding-bottom: 50px;
@@ -1130,6 +1123,16 @@ Navbar
 }
 .blog-section-post{
 	margin-bottom: 30px;
+}
+
+@media (max-width: 767px){
+	.blog-section h2{
+		margin-bottom: 40px;
+		font-size: 30px;
+	}
+	.blog-section {
+	    padding-bottom: 25px;
+	}
 }
 
 /*intro flash*/
