@@ -465,6 +465,53 @@
 		</section>
 	</div>
 
+	<section class="content-section why-rs our-features">
+		<h1>What you get working with us?</h1>
+		<p>Here’s a quick overview of the advantages you receive.</p>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 why-rs-content">
+					<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+					<h2>100% Hand-coded</h2>
+					<p>To avoid technical errors we implement 100% hand coded, semantic coding techniques which also help your site become seo friendly and enhance the performance.</p>
+				</div>
+
+				<div class="col-md-4 why-rs-content">
+					<i class="fa fa-file-code-o" aria-hidden="true"></i>
+					<h2>Web Standards</h2>
+					<p>Quality is our key! We follow W3C coding standards which helps to remove errors in coding, if any, and guarantee the same naming convention every time.</p>
+				</div>
+
+				<div class="col-md-4 why-rs-content">
+					<i class="fa fa-rocket" aria-hidden="true"></i>
+					<h2>Fast Loading Speed</h2>
+					<p>Our conversion process has a well-categorized structure that use optimized images and animations so that the web page remains lightweight and increase website speed.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 why-rs-content">
+					<i class="fa fa-window-maximize" aria-hidden="true"></i>
+					<h2>Cross-browser Compatibility</h2>
+					<p>Our templates look great on all modern web browsers. We rarely use simulators - we test our projects on real browsers on many platform.</p>
+				</div>
+
+				<div class="col-md-4 why-rs-content">
+					<i class="fa fa-mobile" aria-hidden="true"></i>
+					<h2>Mobile Device Compatibility</h2>
+					<p>You don't need responsive template but you want it to look good on mobile devices? We'll optimize it for mobile devices. Our templates look great on all decices.</p>
+				</div>
+
+				<div class="col-md-4 why-rs-content">
+					<i class="fa fa-cog" aria-hidden="true"></i>
+					<h2>Easy to Integrate With Any CMS</h2>
+					<p>Our code is fully commented and well structured. We follow the best coding practices which makes it easily integratable with any CMS.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="content-section testimonial-block">
 		<!--<h2>WORDS FROM <span>Happy clients</span></h2>-->
 		<div class="container">
@@ -677,63 +724,6 @@
 		</div>
 	</section>
 
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="row">
-					
-						<div class="col-sm-4">
-							<ul class="footer-nav">
-								<li><a href="#">Services</a></li>
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Portfolio</a></li>
-								<li><a href="#">Approach</a></li>
-								<li><a href="#">Pricing</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><a href="#">Sitemap</a></li>
-								<li><a href="#">Contact us</a></li>
-							</ul>
-						</div>
-
-						<div class="col-sm-4">
-							<ul class="footer-nav">
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Help Center</a></li>
-								<li><a href="#">Terms</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-							</ul>
-						</div>
-
-						<div class="col-sm-4">
-							<ul class="footer-nav">
-								<li><a href="#">PSD to HTML</a></li>
-								<li><a href="#">PSD to Wordpress</a></li>
-								<li><a href="#">Responsive Web Design</a></li>
-								<li><a href="#">PSD to Email Template</a></li>
-								<li><a href="#">Logo Design</a></li>
-								<li><a href="#">Graphics Design</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 footer-rights-block">
-					<a href="#" class="footer-logo"><img src="<?php echo RS_THEME_ASSET; ?>/images/rs-logo.png" alt="Right Slash"></a>
-					<ul class="social-links">
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-					</ul>
-					<p class="copyright">Copyright &copy; 2018 Right Slash. All Rights Reserved!</p>
-				</div>
-			</div>
-		</div>
-	</footer>
 </div>
 
 <?php get_footer(); ?>

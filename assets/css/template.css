@@ -192,7 +192,11 @@ Navbar
     border-radius: 6px;
     padding: 7px 17px;
     letter-spacing: 0;
-    transition: all .4s;
+    transition: all .5s;
+}
+#main-nav .start-project-btn a:hover{
+	background: #000;
+	color: #fff;
 }
 .rs-logo-reverse,
 #main-nav.navbar-shrink .rs-logo{
@@ -201,7 +205,9 @@ Navbar
 #main-nav.navbar-shrink .rs-logo-reverse{
 	display: block;
 }
-
+.admin-bar .navbar{
+	top: 32px;
+}
 #main-nav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
@@ -216,6 +222,9 @@ Navbar
 #main-nav.navbar-shrink .nav-item a{
 	color: #fff;
 }
+#main-nav.navbar-shrink .nav-item a:hover{
+	color: #fdf000;
+}
 #main-nav.navbar-shrink .navbar-brand{
 	padding: 0;
 }
@@ -225,6 +234,10 @@ Navbar
 #main-nav.navbar-shrink .start-project-btn a{
 	background: #fff;
 	color: #000;
+}
+#main-nav.navbar-shrink .start-project-btn a:hover{
+	background: #158a01;
+	color: #fff;
 }
 
 @media (min-width: 992px){
@@ -506,11 +519,19 @@ Navbar
 .team-block{
 	margin-bottom: 35px;
 }
+.team-block:hover{
+	cursor: pointer;
+}
 .team-block img{
 	width: 100px;
 	border-radius: 50%;
+	-webkit-filter: grayscale(90%) opacity(0.95);
 	filter: grayscale(90%) opacity(0.95);
 	margin-bottom: 15px;
+}
+.team-block img:hover{
+	-webkit-filter: sepia(30%);
+	filter: sepia(30%);
 }
 .team-block h4{
 	font-size: 14px;
@@ -550,6 +571,9 @@ Navbar
     position: relative;
     text-align: center;
 	vertical-align: top;
+	height: 200px;
+    border: 2px solid #e2e2e2;
+    border-radius: 50%;
 }
 .circle canvas{
 	max-width: 100%;
@@ -596,7 +620,10 @@ Navbar
 }
 @media (max-width: 900px){
 	.circle {
-		width: 100%;
+		border:none;
+	}
+	.circle-content i {
+		font-size: 30px;
 	}
 }
 @media (max-width: 767px){
@@ -778,6 +805,7 @@ Navbar
 }
 .portfolio-gallery li figure:hover img{
 	transform: scale(1);
+	cursor: pointer;
 }
 .portfolio-gallery li figure:hover figcaption{
 	transform: translate3d(0, 0, 0);
@@ -873,6 +901,13 @@ Navbar
 	font-size: 22px;
 	color: #000;
 }
+.rs-quote-link:hover{
+	text-decoration: underline;
+}
+.order-btn:hover{
+	background-color: #2f2f2d;
+    color: #d6d6d6;
+}
 .psdtoemail{
 	background: #f3f3f3;
 }
@@ -923,6 +958,11 @@ Navbar
 .psdtowp .rs-quote-link{
 	color: #fff;
 }
+.psdtowp .order-btn:hover,
+.psdtoemail .order-btn:hover {
+    background-color: #003a69;
+    color: #fff;
+}
 
 @media (max-width: 767px){
 	.service-section{
@@ -942,6 +982,30 @@ Navbar
 	}
 }
 
+/*our offer*/
+.our-features{
+	background: #f9f9f9;
+	padding-top: 70px;
+	padding-bottom: 0;
+}
+.our-features h1 {
+    color: #2f2e2e;
+}
+.our-features h1+p {
+    color: #636363;
+}
+.our-features .why-rs-content i {
+    color: #696766;
+}
+.our-features .why-rs-content:hover i {
+    color: #272626;
+}
+.our-features .why-rs-content h2 {
+    color: #232322;
+}
+.our-features .why-rs-content p {
+    color: #636363;
+}
 
 /*testimonial*/
 .testimonial-block{
@@ -1148,14 +1212,14 @@ Navbar
 	background-repeat: no-repeat;
 	background-size: cover;
 	
-	background-position: center center;
+	background-position: center 70%;
 }
 .intro-flash-inner{
 	background: rgba(0,0,0,0.7);
 	width: 100%;
 }
 .intro-flash-container{
-	height: 500px;
+	height: 400px;
 }
 .intro-flash-container p{
 	color: #f5f5f5;
@@ -1169,6 +1233,9 @@ Navbar
 	transform: translate3d(0,1rem,0);
 	opacity: 0;
 	transition: all .3s ease-in-out;
+}
+.intro-flash-container a:hover{
+	color: #fff;
 }
 .intro-flash:hover .intro-flash-inner{
 	background: rgba(0,0,0,0.92);
@@ -1245,6 +1312,10 @@ Navbar
     font-weight: normal;
     text-transform: uppercase;
 }
+.btn-black:hover{
+	background-color: #9c9c9c;
+	border:none;
+}
 
 @media (max-width: 575px){
 	.subscribe-form .form-inline input{
@@ -1258,6 +1329,28 @@ Navbar
 	}
 }
 
+
+/*==================
+	contact page
+===================*/
+.admin-bar .navbar + .contact-page-wrapper{
+	margin-top: 120px;
+}
+.contact-banner{
+	background-image: url(../images/contact-bg.png);
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+.contact-form h2{
+	text-align: center;
+	margin: 30px 0 15px;
+}
+.contact-form h2+p{
+	text-align: center;
+	margin-bottom: 40px;
+}
 
 /*footer*/
 footer{

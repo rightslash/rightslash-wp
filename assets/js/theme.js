@@ -73,11 +73,11 @@
 		//var	progressT = jQuery('.project-status-block').offset().top;
 		
 		//if(winT + winH > progressT){
-			$(".circle")
+			/*$(".circle")
 				.circleProgress(progressBarOptions)
 				.one("circle-animation-progress", function(event, progress, stepValue) {
 					//$(this).find("strong").text(String(stepValue.toFixed(2)).substr(1));
-			});
+			});*/
 		//}
 
 	//});
