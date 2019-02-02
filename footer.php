@@ -54,9 +54,9 @@
 					<ul class="social-links">
 						<li><a href="https://www.facebook.com/rightslash" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="https://twitter.com/rightslashbd" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/rightslash/ target="_blank""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/rightslash/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 						<li><a href="https://dribbble.com/rightslash" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.instagram.com/rightslash/ target="_blank""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/rightslash/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 						<!--<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>-->
 						<li><a href="https://www.youtube.com/channel/UCJLBv3UzIdplmSGn4uBKavg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 						<!--<li><a href="https://vimeo.com/user94647665" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>-->
