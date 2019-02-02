@@ -25,7 +25,7 @@
 		</div>
 
 		<div class="row justify-content-md-center">
-			<div class="col-md-7 contact-form">
+			<div class="col-md-6 contact-form">
 				<h2>Drop us a line</h2>
 				<p>Just choose the best way to contact us. We are here to address your mails round the clock.</p>
 				<?php  
