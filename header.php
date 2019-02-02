@@ -54,7 +54,7 @@
 					<li class="nav-item"><a href="#portfolio">Portfolio</a></li>
 					<li class="nav-item"><a href="#approach">Approach</a></li>
 					<li class="nav-item"><a href="#blog">Blog</a></li>
-					<li class="nav-item"><a href="#">Contact us</a></li>
+					<li class="nav-item"><a href="/contact-us">Contact us</a></li>
 					<li class="nav-item start-project-btn"><a href="#">Start A Project</a></li>
 			    </ul>
 			</div>
