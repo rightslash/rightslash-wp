@@ -29,7 +29,7 @@
 		
 		if(devWidth <= 767){
 			$('#intro-wrapper').hide(100);
-			$('.home-container,.navbar').show(100);
+			$('.home-container,.navbar,footer').show(100);
 			setCookie('intro', 1, 120);
 		} 
 		/*

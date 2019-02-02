@@ -28,7 +28,8 @@
 		?>
 		<style>
 			.home-container,
-			.navbar{
+			.navbar,
+			footer{
 				display: block;
 			}
 		</style>

@@ -136,7 +136,8 @@ h2{
 }	
 
 .home-container,
-.navbar{
+.navbar,
+footer{
 	display: none;
 }
 

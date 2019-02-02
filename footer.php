@@ -6,7 +6,6 @@
 			*/
 			get_template_part("inc/intro", "contact");
 		}
-		else{
 	?>
 
 	<footer>
@@ -68,8 +67,6 @@
 			</div>
 		</div>
 	</footer>
-
-	<?php } ?>
 
 	<?php wp_footer(); ?>
 </body>
