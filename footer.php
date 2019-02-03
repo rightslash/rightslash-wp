@@ -66,6 +66,12 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Your customer chat code -->
+		<div class="fb-customerchat"
+		  attribution=setup_tool
+		  page_id="481170958638265">
+		</div>
 	</footer>
 
 	<?php wp_footer(); ?>
