@@ -58,7 +58,7 @@
 
 	<nav class="navbar navbar-expand-lg fixed-top" id="main-nav">
 		<div class="container">
-			<a class="navbar-brand" href="#"><img src="<?php echo RS_THEME_ASSET; ?>/images/rs-logo.png" class="rs-logo" alt="Right Slash"><img src="<?php echo RS_THEME_ASSET; ?>/images/rs-logo-reverse.png" class="rs-logo-reverse" alt="Right Slash"></a>
+			<a class="navbar-brand" href="<?php echo bloginfo('url'); ?>"><img src="<?php echo RS_THEME_ASSET; ?>/images/rs-logo.png" class="rs-logo" alt="Right Slash"><img src="<?php echo RS_THEME_ASSET; ?>/images/rs-logo-reverse.png" class="rs-logo-reverse" alt="Right Slash"></a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <i class="fa fa-bars"></i>
@@ -66,11 +66,11 @@
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav">
-			    	<li class="nav-item"><a href="#about">About</a></li>
-			    	<li class="nav-item"><a href="#services">Services</a></li>
-					<li class="nav-item"><a href="#portfolio">Portfolio</a></li>
-					<li class="nav-item"><a href="#approach">Approach</a></li>
-					<li class="nav-item"><a href="#blog">Blog</a></li>
+			    	<li class="nav-item"><a href="/#about">About</a></li>
+			    	<li class="nav-item"><a href="/#services">Services</a></li>
+					<li class="nav-item"><a href="/#portfolio">Portfolio</a></li>
+					<li class="nav-item"><a href="/#approach">Approach</a></li>
+					<li class="nav-item"><a href="/#blog">Blog</a></li>
 					<li class="nav-item"><a href="/contact-us">Contact us</a></li>
 					<li class="nav-item start-project-btn"><a href="#">Start A Project</a></li>
 			    </ul>

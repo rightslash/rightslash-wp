@@ -23,24 +23,24 @@
 	</div>
 
 	<section class="content-section why-rs parallax1">
-		<h1>Reason to choose Right Slash!</h1>
-		<p>We don't find fault, we find a remedy. We always value our clients.</p>
+		<h1 class="wow fadeIn" data-wow-delay=".3s" >Reason to choose Right Slash!</h1>
+		<p class="wow fadeIn" data-wow-delay=".4s">We don't find fault, we find a remedy. We always value our clients.</p>
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-list-ul" aria-hidden="true"></i>
 					<h2>Standard <strong>Work Process</strong></h2>
 					<p>We maintain a standard workflow and focuses on the best possible outcome. We know the inside-outs of PSD conversions.</p>
 				</div>
 
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-code" aria-hidden="true"></i>
 					<h2>Technically <strong>Skilled</strong></h2>
 					<p>Our developers have real life work experience to perfectly understand the requirements and specifications of any PSD conversion. </p>
 				</div>
 
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-handshake-o" aria-hidden="true"></i>
 					<h2>Non-Disclosure <strong>Agreement</strong></h2>
 					<p>We understand and appreciate confidentiality. We will willingly sign an NDA prior to the PSD conversion.</p>
@@ -48,19 +48,19 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-coffee" aria-hidden="true"></i>
 					<h2>Free <strong>Technical Support</strong></h2>
 					<p>We offer 20 days of free technical support and assistance for your CMS or Custom projects if you face any difficulty.</p>
 				</div>
 
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-gift" aria-hidden="true"></i>
 					<h2>Discount for <strong>Returning Clients</strong></h2>
 					<p>There's nothing better than having you return with us. We offer a special 10% discount for our existing customers.</p>
 				</div>
 
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-space-shuttle" aria-hidden="true"></i>
 					<h2>Fast <strong>Turnaround Time</strong></h2>
 					<p>We respect your time. Meeting the deadlines is not good enough, beating the deadlines is our expectation.</p>
@@ -70,38 +70,38 @@
 	</section>
 
 	<section class="content-section about-section" id="about">
-		<h2>Right <span>Slash</span></h2>
-		<p>A small group of people with great skills.</p>
+		<h2 class="wow fadeIn" data-wow-delay=".3s">Right <span>Slash</span></h2>
+		<p class="wow fadeIn" data-wow-delay=".4s">A small group of people with great skills.</p>
 		<div class="container">
-			<p class="about-desc">We are very small but one of the world’s prominent and fast growing organizations providing front-end solutions, CMS solution with wordpress, email templates and various graphics services  to boost our client’s productivity and efficiency. Our team have earned years of experience along with expertise by serving different sectors worldwide.</p>
+			<p class="about-desc wow fadeIn" data-wow-delay=".8s">We are very small but one of the world’s prominent and fast growing organizations providing front-end solutions, CMS solution with wordpress, email templates and various graphics services  to boost our client’s productivity and efficiency. Our team have earned years of experience along with expertise by serving different sectors worldwide.</p>
 
-			<h3>Our Team</h3>
+			<h3 class="wow fadeIn" data-wow-delay=".3s">Our Team</h3>
 			<div class="row justify-content-md-center">
-				<div class="col-md-2 col-sm-4 team-block">
+				<div class="col-md-2 col-sm-4 team-block wow slideInUp" data-wow-delay=".3s">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/gabrial.jpg" alt="">
 					<h4>Gabrial GSM</h4>
 					<span>Founder &amp; CEO</span>
 				</div>
 
-				<div class="col-md-2 col-sm-4 team-block">
+				<div class="col-md-2 col-sm-4 team-block wow slideInUp" data-wow-delay=".5s">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/nick.jpg" alt="">
 					<h4>Nick Patrick</h4>
 					<span>Project Manager</span>
 				</div>
 
-				<div class="col-md-2 col-sm-4 team-block">
+				<div class="col-md-2 col-sm-4 team-block wow slideInUp" data-wow-delay=".6s">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" alt="">
 					<h4>Krishan Magube</h4>
 					<span>Developer</span>
 				</div>
 
-				<div class="col-md-2 col-sm-4 team-block">
+				<div class="col-md-2 col-sm-4 team-block wow slideInUp" data-wow-delay=".7s">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/mahbub.jpg" alt="">
 					<h4>Mahbub Hasan</h4>
 					<span>Developer</span>
 				</div>
 
-				<div class="col-md-2 col-sm-4 team-block">
+				<div class="col-md-2 col-sm-4 team-block wow slideInUp" data-wow-delay=".8s">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/victoria.jpg" alt="">
 					<h4>Victoria Farare</h4>
 					<span>Developer</span>
@@ -116,19 +116,19 @@
 					<span>Web Research Analyst</span>
 				</div>-->
 
-				<div class="col-md-2 col-sm-4 team-block">
+				<div class="col-md-2 col-sm-4 team-block wow slideInUp" data-wow-delay=".3s">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" alt="">
 					<h4>Krish Martin</h4>
 					<span>Marketing Officer</span>
 				</div>
 
-				<div class="col-md-2 col-sm-4 team-block">
+				<div class="col-md-2 col-sm-4 team-block wow slideInUp" data-wow-delay=".4s">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/ramy.jpg" alt="">
 					<h4>Clement Ramy</h4>
 					<span>Head of Design</span>
 				</div>
 
-				<div class="col-md-2 col-sm-4 team-block">
+				<div class="col-md-2 col-sm-4 team-block wow slideInUp" data-wow-delay=".5s">
 					<img src="<?php echo RS_THEME_ASSET ?>/images/samuel.jpg" alt="">
 					<h4>Samuel Victor</h4>
 					<span>Designer</span>
@@ -142,7 +142,7 @@
 	<section class="content-section project-status-block">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 wow zoomIn" data-wow-delay=".3s">
 					<div class="circle">
 						<div class="circle-content">
 							<i class="fa fa-user-plus" aria-hidden="true"></i>
@@ -152,7 +152,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3 wow zoomIn" data-wow-delay=".5s">
 					<div class="circle">
 						<div class="circle-content">
 							<i class="fa fa-globe" aria-hidden="true"></i>
@@ -162,7 +162,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3 wow zoomIn" data-wow-delay=".7s">
 					<div class="circle">
 						<div class="circle-content">
 							<i class="fa fa-file-code-o" aria-hidden="true"></i>
@@ -172,7 +172,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3 wow zoomIn" data-wow-delay=".9s">
 					<div class="circle">
 						<div class="circle-content">
 							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
@@ -186,8 +186,8 @@
 	</section>
 
 	<section class="content-section skill-meter-block">
-		<h2>Our Proficiency &amp; Skills</h2>
-		<p>Checkout before hiring to <strong>Save time, money and avoid stress.</strong></p>
+		<h2 class="wow zoomIn" data-wow-delay=".3s">Our Proficiency &amp; Skills</h2>
+		<p class="wow zoomIn" data-wow-delay=".5s">Checkout before hiring to <strong>Save time, money and avoid stress.</strong></p>
 		<div class="container">
 			<div class="row align-items-center" id="skills">
 				<div class="col-md-6">
@@ -238,13 +238,13 @@
 	</section>
 
 	<section class="content-section portfolio-block" id="portfolio">
-		<h2>Portfolio</h2>
-		<p>Explore our world of passion and awesomeness</p>
+		<h2 class="wow zoomIn" data-wow-delay=".3s">Portfolio</h2>
+		<p class="wow zoomIn" data-wow-delay=".5s">Explore our world of passion and awesomeness</p>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col">
 					<ul class="portfolio-gallery">
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/ecommerce.jpg" alt="e-commerce Template">
 								<figcaption>
@@ -254,7 +254,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-wp.jpg" alt="PSD to WordPress">
 								<figcaption>
@@ -264,7 +264,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay=".5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html-medicare.jpg" alt="PSD to HTML">
 								<figcaption>
@@ -274,7 +274,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html.jpg" alt="PSD to HTML">
 								<figcaption>
@@ -284,7 +284,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/web-app.jpg" alt="Web App">
 								<figcaption>
@@ -294,7 +294,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/nsl-brochure.jpg" alt="Brochure Design">
 								<figcaption>
@@ -304,7 +304,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/wp-mudev.jpg" alt="Business Card">
 								<figcaption>
@@ -314,7 +314,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/anchor-creative.jpg" alt="Logo Design">
 								<figcaption>
@@ -324,7 +324,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/sofrware-station.jpg" alt="Logo Design">
 								<figcaption>
@@ -334,7 +334,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/gadget-life.jpg" alt="Logo Design">
 								<figcaption>
@@ -344,7 +344,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/go-mobi.jpg" alt="Logo Design">
 								<figcaption>
@@ -354,7 +354,7 @@
 							</figure>
 						</li>
 
-						<li>
+						<li class="wow slideInUp" data-wow-delay="0.5s">
 							<figure>
 								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/jm-global.jpg" alt="Logo Design">
 								<figcaption>
@@ -372,11 +372,11 @@
 	<div class="flash-order-block">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-sm-8 col-xs-12 text-sm-left text-center">
+				<div class="col-sm-8 col-xs-12 text-sm-left text-center wow fadeIn" data-wow-delay=".3s">
 					<p>Impressed with our work?</p>
 					<h4>Start building your business with <span>Right Slash</span></h4>
 				</div>
-				<div class="col text-sm-right text-center">
+				<div class="col text-sm-right text-center wow fadeIn" data-wow-delay=".5s">
 					<a href="#" class="btn btn-rs">Order Now</a>
 				</div>
 			</div>
@@ -384,13 +384,13 @@
 	</div>
 
 	<div id="services" class="service-wrap">
-		<section class="content-section service-section psdtohtml">
+		<section class="content-section service-section psdtohtml" id="psdtohtml">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-5 text-md-right text-center order-md-12">
+					<div class="col-md-5 text-md-right text-center order-md-12 wow slideInRight" data-wow-delay=".3s">
 						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-html.png" alt="">
 					</div>
-					<div class="col-md-7 order-md-1">
+					<div class="col-md-7 order-md-1 wow slideInLeft" data-wow-delay=".3s">
 						<h3>PSD to <span>HTML</span></h3>
 						<p class="service-meta">We deliver top-notch PSD to HTML Conversion to bring life to your designs.</p>
 						<p class="service-desc">We deliver hand-coded, Pixel perfect, W3C standard responsive layouts that are high on quality. We develop Bootstrap-based projects, work with Retina-ready designs and a bunch of JavaScript features.<br><br><span>Ready for the best PSD to HTML service?</span></p>
@@ -404,13 +404,13 @@
 			</div>
 		</section>
 
-		<section class="content-section service-section psdtowp">
+		<section class="content-section service-section psdtowp" id="psdtowp">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-5 text-md-left text-center">
+					<div class="col-md-5 text-md-left text-center wow slideInLeft" data-wow-delay=".3s">
 						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-wp.png" alt="">
 					</div>
-					<div class="col-md-7">
+					<div class="col-md-7 wow slideInRight" data-wow-delay=".3s">
 						<h3>PSD to <span>WordPress</span></h3>
 						<p class="service-meta">We develop fast and easy-to-manage WordPress sites for you.</p>
 						<p class="service-desc">We offer PSD to CMS based website development with WordPress. We provide you simple, but powerful solutions to get your site up and running.<br><br><span>Ready for an awesome PSD to WordPress service?</span></p>
@@ -424,13 +424,13 @@
 			</div>
 		</section>
 
-		<section class="content-section service-section psdtoemail">
+		<section class="content-section service-section psdtoemail" id="psdtoemail">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-5 text-md-right text-center order-md-12">
+					<div class="col-md-5 text-md-right text-center order-md-12 wow slideInRight" data-wow-delay=".3s">
 						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-email.png" alt="">
 					</div>
-					<div class="col-md-7 order-md-1">
+					<div class="col-md-7 order-md-1 wow slideInLeft" data-wow-delay=".3s">
 						<h3>PSD to <span>Email</span></h3>
 						<p class="service-meta">Get your Designs converted into fast loading, responsive Emails.</p>
 						<p class="service-desc">We offer PSD to Email template with quality code and cross-platform compatible feature with just one business day turnaround. Take your email marketing to the next level.<br><br><span>Ready for the responsive PSD to Email service?</span></p>
@@ -444,13 +444,13 @@
 			</div>
 		</section>
 
-		<section class="content-section service-section graphicsdesign">
+		<section class="content-section service-section graphicsdesign" id="graphicsdesign">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-5 text-md-left text-center">
+					<div class="col-md-5 text-md-left text-center wow slideInLeft" data-wow-delay=".3s">
 						<img src="<?php echo RS_THEME_ASSET ?>/images/graphic-design.png" alt="">
 					</div>
-					<div class="col-md-7">
+					<div class="col-md-7 wow slideInRight" data-wow-delay=".3s">
 						<h3>Graphics <span>Design</span></h3>
 						<p class="service-meta">Make your brand standout to other by unique design.</p>
 						<p class="service-desc">We offer web template design, email template design, and offcourse the real branding for your business with logo, business card, flyers, brochures, power-point presentations, ads, banners and many more..<br><br><span>Ready to get your Visual identity?</span></p>
@@ -466,24 +466,24 @@
 	</div>
 
 	<section class="content-section why-rs our-features">
-		<h1>What you get working with us?</h1>
-		<p>Here’s a quick overview of the advantages you receive.</p>
+		<h1 class="wow zoomIn" data-wow-delay=".3s">What you get working with us?</h1>
+		<p class="wow zoomIn" data-wow-delay=".5s">Here’s a quick overview of the advantages you receive.</p>
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
 					<h2>100% Hand-coded</h2>
 					<p>To avoid technical errors we implement 100% hand coded, semantic coding techniques which also help your site become seo friendly and enhance the performance.</p>
 				</div>
 
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-file-code-o" aria-hidden="true"></i>
 					<h2>Web Standards</h2>
 					<p>Quality is our key! We follow W3C coding standards which helps to remove errors in coding, if any, and guarantee the same naming convention every time.</p>
 				</div>
 
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-rocket" aria-hidden="true"></i>
 					<h2>Fast Loading Speed</h2>
 					<p>Our conversion process has a well-categorized structure that use optimized images and animations so that the web page remains lightweight and increase website speed.</p>
@@ -491,19 +491,19 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-window-maximize" aria-hidden="true"></i>
 					<h2>Cross-browser Compatibility</h2>
 					<p>Our templates look great on all modern web browsers. We rarely use simulators - we test our projects on real browsers on many platform.</p>
 				</div>
 
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-mobile" aria-hidden="true"></i>
 					<h2>Mobile Device Compatibility</h2>
 					<p>You don't need responsive template but you want it to look good on mobile devices? We'll optimize it for mobile devices. Our templates look great on all decices.</p>
 				</div>
 
-				<div class="col-md-4 why-rs-content">
+				<div class="col-md-4 why-rs-content wow zoomIn" data-wow-delay=".5s" data-wow-duration="1.5s">
 					<i class="fa fa-cog" aria-hidden="true"></i>
 					<h2>Easy to Integrate With Any CMS</h2>
 					<p>Our code is fully commented and well structured. We follow the best coding practices which makes it easily integratable with any CMS.</p>
@@ -574,12 +574,12 @@
 	</section>
 
 	<section class="content-section process-block" id="approach">
-		<h2>Process we follow</h2>
-		<p>Working hard and working smart- sometimes can be two different thing.<br>We follow some smart process.</p>
+		<h2 class="wow zoomIn" data-wow-delay=".3s">Process we follow</h2>
+		<p class="wow zoomIn" data-wow-delay=".5s">Working hard and working smart- sometimes can be two different thing.<br>We follow some smart process.</p>
 		
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4 process-step">
+				<div class="col-md-4 process-step wow zoomIn" data-wow-delay=".3s">
 					<div class="process-icon" data-step="1">
 						<i class="fa fa-file-text-o" aria-hidden="true"></i>
 					</div>
@@ -587,7 +587,7 @@
 					<p>Place your order including your project requirements along with the corresponding files and complete the 10% upfront payment to send it to production.</p>
 				</div>
 
-				<div class="col-md-4 process-step">
+				<div class="col-md-4 process-step wow zoomIn" data-wow-delay=".6s">
 					<div class="process-icon" data-step="2">
 						<!--<i class="fa fa-list-alt" aria-hidden="true"></i>-->
 						<i class="fa fa-eye" aria-hidden="true"></i>
@@ -596,7 +596,7 @@
 					<p>Once we receive files and details, a manager will review the project and clear every part with you. We need you to mention everything essential so that we can finish on time and of the highest quality.</p>
 				</div>
 
-				<div class="col-md-4 process-step">
+				<div class="col-md-4 process-step wow zoomIn" data-wow-delay=".9s">
 					<div class="process-icon" data-step="3">
 						<i class="fa fa-cogs" aria-hidden="true"></i>
 					</div>
@@ -605,7 +605,7 @@
 				</div>
 			</div>
 			
-			<div class="row justify-content-md-center">
+			<div class="row justify-content-md-center wow zoomIn" data-wow-delay=".3s">
 				<div class="col-md-4 process-step">
 					<div class="process-icon" data-step="4">
 						<i class="fa fa-filter" aria-hidden="true"></i>
@@ -614,7 +614,7 @@
 					<p>After the production part our QA specialist carefully goes through it to make sure it follows our standards and your requirements, double-check all bugs and make any tweaks and adjustments needed.</p>
 				</div>
 
-				<div class="col-md-4 process-step">
+				<div class="col-md-4 process-step wow zoomIn" data-wow-delay=".6s">
 					<div class="process-icon" data-step="5">
 						<i class="fa fa-smile-o" aria-hidden="true"></i>
 					</div>
@@ -628,11 +628,11 @@
 	<div class="flash-order-block">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-sm-8 col-xs-12 text-sm-left text-center">
+				<div class="col-sm-8 col-xs-12 text-sm-left text-center wow fadeIn" data-wow-delay=".3s">
 					<p>Impressed with our work?</p>
 					<h4>Start building your business with <span>Right Slash</span></h4>
 				</div>
-				<div class="col text-sm-right text-center">
+				<div class="col text-sm-right text-center wow fadeIn" data-wow-delay=".5s">
 					<a href="#" class="btn btn-rs">Order Now</a>
 				</div>
 			</div>
@@ -712,12 +712,12 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="subscribe-form">
-					<h4>Don't wanna order now?</h4>
-					<p>Subscribe to get in touch</p>
+					<h4 class="wow zoomIn" data-wow-delay=".3s">Don't wanna order now?</h4>
+					<p class="wow zoomIn" data-wow-delay=".5s">Subscribe to get in touch</p>
 					
 					<form class="form-inline">
-					    <input type="text" class="form-control" placeholder="email@example.com" value="">
-					  	<button type="submit" class="btn btn-black btn-submit">Subscribe</button>
+					    <input type="text" class="form-control wow zoomIn" data-wow-delay=".6s" placeholder="email@example.com" value="">
+					  	<button type="submit" class="btn btn-black btn-submit wow zoomIn" data-wow-delay=".6s">Subscribe</button>
 					</form>
 				</div>
 			</div>

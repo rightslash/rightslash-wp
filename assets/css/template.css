@@ -987,25 +987,40 @@ Navbar
 .our-features{
 	background: #f9f9f9;
 	padding-top: 70px;
-	padding-bottom: 0;
+	padding-bottom: 40px;
 }
 .our-features h1 {
     color: #2f2e2e;
 }
 .our-features h1+p {
     color: #636363;
+    margin-bottom: 50px;
+}
+.our-features .why-rs-content{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+}
+.our-features .why-rs-content:hover{
+	background-color: #191919;
 }
 .our-features .why-rs-content i {
     color: #696766;
 }
 .our-features .why-rs-content:hover i {
-    color: #272626;
+    color: #e0e0e0;
 }
 .our-features .why-rs-content h2 {
     color: #232322;
 }
+.our-features .why-rs-content:hover h2{
+	color: #dadada;
+}
 .our-features .why-rs-content p {
     color: #636363;
+}
+.our-features .why-rs-content:hover p {
+    color: #ccc;
 }
 
 /*testimonial*/
@@ -1376,6 +1391,15 @@ Navbar
 	background: #252525;
     color: #ffffff;
     padding: 8px 20px;
+}
+.grecaptcha-badge{
+	display: none !important;
+}
+
+@media (max-width: 414px){
+	.contact-banner{
+		height: 130px;
+	}
 }
 
 /*footer*/
