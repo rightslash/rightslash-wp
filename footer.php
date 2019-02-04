@@ -11,7 +11,7 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-8" style="display: none;">
 					<div class="row">
 					
 						<div class="col-sm-4">
@@ -48,16 +48,16 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 footer-rights-block">
-					<a href="<?php echo bloginfo('url'); ?>" class="footer-logo wow zoomIn" data-wow-delay="1s"><img src="<?php echo RS_THEME_ASSET; ?>/images/rs-logo.png" alt="Right Slash"></a>
+				<div class="col-md-12 footer-rights-block">
+					<a href="<?php echo bloginfo('url'); ?>" class="footer-logo wow zoomIn" data-wow-delay=".5s"><img src="<?php echo RS_THEME_ASSET; ?>/images/rs-logo.png" alt="Right Slash"></a>
 					<ul class="social-links">
-						<li class="wow zoomIn" data-wow-delay="1.2s"><a href="https://www.facebook.com/rightslash" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="wow zoomIn" data-wow-delay=".8s"><a href="https://twitter.com/rightslashbd" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="wow zoomIn" data-wow-delay="1.1s"><a href="https://www.linkedin.com/in/rightslash/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="wow zoomIn" data-wow-delay=".7s"><a href="https://dribbble.com/rightslash" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li class="wow zoomIn" data-wow-delay=".5s"><a href="https://www.instagram.com/rightslash/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="wow zoomIn" data-wow-delay=".2s"><a href="https://www.facebook.com/rightslash" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="wow zoomIn" data-wow-delay=".5s"><a href="https://twitter.com/rightslashbd" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="wow zoomIn" data-wow-delay=".1s"><a href="https://www.linkedin.com/in/rightslash/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="wow zoomIn" data-wow-delay=".6s"><a href="https://dribbble.com/rightslash" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						<li class="wow zoomIn" data-wow-delay=".3s"><a href="https://www.instagram.com/rightslash/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 						<!--<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>-->
-						<li class="wow zoomIn" data-wow-delay="1s"><a href="https://www.youtube.com/channel/UCJLBv3UzIdplmSGn4uBKavg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+						<li class="wow zoomIn" data-wow-delay=".7s"><a href="https://www.youtube.com/channel/UCJLBv3UzIdplmSGn4uBKavg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 						<!--<li><a href="https://vimeo.com/user94647665" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>-->
 
 					</ul>

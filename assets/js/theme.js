@@ -90,7 +90,7 @@
 	document.addEventListener('DOMContentLoaded', function() {
 	  var typed = new Typed('#typed', {
 	    strings: ['<span>Talent without working hard is nothing. We have no special talent.</span><br><span class="last-child">We are only passionately curious.</span>'],
-	    typeSpeed: 30,
+	    typeSpeed: 20,
 	    backSpeed: 0,
 	    fadeOut: true,
 	    loop: false
@@ -101,18 +101,18 @@
 	// Skiil meter
 	var skillsDiv = jQuery('#skills');
 
-	jQuery(window).on('scroll', function(){
+	/*jQuery(window).on('scroll', function(){
 		var winT = jQuery(window).scrollTop(),
 	  	winH = jQuery(window).height(),
 	  	skillsT = skillsDiv.offset().top;
-	  	if(winT + winH  > skillsT){
+	  	if(winT + winH  > skillsT){*/
 		  	jQuery('.skillbar').each(function(){
 		      jQuery(this).find('.skillbar-bar').animate({
 		        width:jQuery(this).attr('data-percent')
 		      },3000);
 		    });
-		}
-	});
+		/*}
+	});*/
 
 
 	/*testimonial*/

@@ -33,11 +33,11 @@
 		wp_enqueue_style("rightslash-css", RS_THEME_ASSET . "/css/template.css", null, VERSION );
 		
 		if(is_front_page()){
-			//if(!isset($_COOKIE['intro'])){
+			if(!isset($_COOKIE['intro'])){
 				wp_enqueue_style("intro-css", RS_THEME_ASSET . "/css/intro.css", null, VERSION );
 				wp_enqueue_script("modal-js", RS_THEME_ASSET . "/js/modal-effect.js", array("jquery"), VERSION, true);
 				wp_enqueue_script("intro-js", RS_THEME_ASSET . "/js/intro.js", array("jquery"), VERSION, true);
-			//}
+			}
 		}	
 
 		wp_enqueue_script("bootstrap-js", "//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js", array("jquery"), VERSION, true);	

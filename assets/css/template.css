@@ -6,6 +6,7 @@
 body, html{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	height: 100%;
 }
 a {
 	background-color: transparent;
@@ -1354,6 +1355,7 @@ Navbar
 }
 .contact-page-wrapper{
 	padding-bottom: 50px;
+	margin-top: 90px;
 }
 .contact-banner{
 	background-image: url(../images/contact-bg.png);
@@ -1430,8 +1432,8 @@ footer{
 }
 .footer-rights-block{
 	text-align: center;
-	border-left: 1px solid #353535;
-	padding-left: 35px;
+	/*border-left: 1px solid #353535;
+	padding-left: 35px;*/
 }
 .footer-logo{
 	display: inline-block;
@@ -1477,5 +1479,13 @@ footer{
 	}
 	.footer-logo img {
 	    width: 110px;
+	}
+}
+@media (max-width: 480px){
+	footer{
+		padding: 45px 0;
+	}
+	.footer-logo img {
+	    width: 90px;
 	}
 }
