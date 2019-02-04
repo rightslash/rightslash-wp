@@ -129,4 +129,7 @@
 	    autoplaySpeed: 3500
 	});
 
+	// mail subscription box placeholder
+	$('#es_txt_email').attr("placeholder","email@example.com");
+
 })(jQuery);

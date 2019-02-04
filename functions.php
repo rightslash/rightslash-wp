@@ -75,3 +75,21 @@
 	}
 	add_action("wp_ajax_send_email", "rightslash_send_email");
 	add_action("wp_ajax_nopriv_send_email", "rightslash_send_email");
+
+
+	/*
+	* Widget init
+	*/
+	// Mail subscription widget
+	function rightslash_sidebar(){
+		register_sidebar(
+			array(
+				"name" => __("Email Subscription", "rightslash"),
+				"id"   => "sidebar-1",
+				"description" => __("Email Subscription section", "rightslash"),
+				"before_title" => "<h4 class='wow zoomIn' data-wow-delay='.3s'>",
+				"after_title" => "</h4>"
+			)
+		);
+	}
+	add_action("widgets_init", "rightslash_sidebar");

@@ -1278,10 +1278,10 @@ Navbar
 /*subscribe*/
 .mail-subscribe-block{
 	background: #f1f1f1;
-	padding: 70px 0;
+	padding: 70px 0 50px;
 }
 .mail-subscribe-block h4,
-.mail-subscribe-block h4+p{
+p.mail-subtext{
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -1291,7 +1291,7 @@ Navbar
     color: #000;
     letter-spacing: 2px;
 }
-.mail-subscribe-block h4+p{
+p.mail-subtext{
 	margin-bottom: 40px;
 	color: #3e3e3e;
     font-size: 17px;
@@ -1304,35 +1304,68 @@ Navbar
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.subscribe-form .form-inline input{
+.subscribe-form .es_textbox{
 	width: 70%;
-	margin-right: 10px;
-	height: 51px;
-	border-color: #9e9e9e;
+	float: left;
 }
 .subscribe-form .form-inline input,
-.subscribe-form .form-inline button{
+.subscribe-form input#es_txt_email{
+	width: 100%;
+	margin-right: 10px;
+	height: 51px;
+	padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #9e9e9e;
+    border-radius: .25rem;
+}
+.subscribe-form .form-inline input,
+.subscribe-form .form-inline button,
+.subscribe-form input#es_txt_button{
 	border-radius: 5px;
 }
 .subscribe-form .form-inline .form-control:focus,
-.subscribe-form .form-inline button:focus{
+.subscribe-form .form-inline button:focus,
+.subscribe-form input.es_textbox_class:focus,
+.subscribe-form input#es_txt_button:focus{
 	box-shadow: none;
 	border-color: #000;
+	outline: none;
 }
-.btn-black {
+.btn-black ,
+.subscribe-form input#es_txt_button{
 	background-color: #000;
 	color: #fff;
 }
-.btn-submit{
-	padding: 13px 28px;
+.subscribe-form .es_button{
+	padding: 0;
+}
+.btn-submit,
+.subscribe-form input#es_txt_button{
+	padding: 14px 28px;
     font-size: 15px;
     font-weight: normal;
     text-transform: uppercase;
+    border:none;
 }
-.btn-black:hover{
+.subscribe-form input#es_txt_button{
+	margin-left: 10px;
+}
+.btn-black:hover,
+.subscribe-form input#es_txt_button:hover{
 	background-color: #9c9c9c;
 	border:none;
+	outline: none;
+	cursor: pointer;
 }
+.es_msg{
+	overflow: hidden;
+	width: 100%;
+}
+.es_lablebox{display: none;}
 
 @media (max-width: 575px){
 	.subscribe-form .form-inline input{
@@ -1343,6 +1376,18 @@ Navbar
 	.subscribe-form .form-inline button{
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.subscribe-form .es_textbox {
+	    width: 100%;
+	    float: none;
+	    margin-bottom: 15px;
+	}
+	.subscribe-form .es_button,
+	.subscribe-form input#es_txt_email{
+		text-align: center;
+	}
+	.subscribe-form input#es_txt_button{
+		margin-left: auto;
 	}
 }
 

@@ -709,14 +709,12 @@
 	<section class="content-section mail-subscribe-block">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="subscribe-form">
-					<h4 class="wow zoomIn" data-wow-delay=".3s">Don't wanna order now?</h4>
-					<p class="wow zoomIn" data-wow-delay=".5s">Subscribe to get in touch</p>
-					
-					<form class="form-inline">
-					    <input type="text" class="form-control wow zoomIn" data-wow-delay=".4s" placeholder="email@example.com" value="">
-					  	<button type="submit" class="btn btn-black btn-submit wow zoomIn" data-wow-delay=".4s">Subscribe</button>
-					</form>
+				<div class="subscribe-form wow zoomIn" data-wow-delay=".2s">
+					<?php  
+						if(is_active_sidebar("sidebar-1")){
+							dynamic_sidebar("sidebar-1");
+						}
+					?>
 				</div>
 			</div>
 		</div>
