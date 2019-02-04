@@ -33,6 +33,12 @@
 	    $('.navbar-collapse').collapse('hide');
 	});
 
+	// Back to top button
+	$('.backto-top').on('click', function(e) {
+	    e.preventDefault();
+	    $('html, body').animate({scrollTop:0},'slow', 'easeInOutExpo');
+	});
+
 
 	// Activate scrollspy to add active class to navbar items on scroll
 	$('body').scrollspy({

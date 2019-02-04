@@ -71,6 +71,8 @@
 		  attribution=setup_tool
 		  page_id="481170958638265">
 		</div>
+
+		<span class="backto-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
 	</footer>
 
 	<?php wp_footer(); ?>
