@@ -1,2 +1,2 @@
-# rightslash-wp
-Right Slash website
+# rs-website
+Company Website
