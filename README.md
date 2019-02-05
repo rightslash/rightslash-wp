@@ -1,2 +1,0 @@
-# rs-website
-Company Website
