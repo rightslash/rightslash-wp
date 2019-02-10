@@ -39,9 +39,12 @@
 	    $('html, body').animate({scrollTop:0},'slow', 'easeInOutExpo');
 	});
 
+<<<<<<< HEAD
 	// add order button class
 	$('.navbar-nav li:last-child').addClass('start-project-btn');
 
+=======
+>>>>>>> 5d7fd091d3beedd01c67ac9ed5da1dd152d84c5e
 
 	// Activate scrollspy to add active class to navbar items on scroll
 	$('body').scrollspy({
@@ -141,7 +144,10 @@
 	// mail subscription box placeholder
 	$('#es_txt_email').attr("placeholder","email@example.com");
 
+<<<<<<< HEAD
 	// order form wrapper pre tag remover
 	$('#wpcf7-f42-p36-o1').unwrap().unwrap();
 
+=======
+>>>>>>> 5d7fd091d3beedd01c67ac9ed5da1dd152d84c5e
 })(jQuery);

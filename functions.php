@@ -18,7 +18,10 @@
 		load_theme_textdomain("rightslash");
 		add_theme_support("post-thumbnails");
 		add_theme_support("title-tag");
+<<<<<<< HEAD
 		register_nav_menu("topmenu", __("Top Menu", "rightslash"));
+=======
+>>>>>>> 5d7fd091d3beedd01c67ac9ed5da1dd152d84c5e
 	}
 	add_action("after_setup_theme", "rightslash_bootstrapping");
 
@@ -77,6 +80,7 @@
 	add_action("wp_ajax_send_email", "rightslash_send_email");
 	add_action("wp_ajax_nopriv_send_email", "rightslash_send_email");
 
+<<<<<<< HEAD
 	/*
 	* Nav menu css clss
 	*/
@@ -85,6 +89,8 @@
 		return $classes;
 	}
 	add_filter("nav_menu_css_class", "rightslash_nav_menu_class", 10,2);
+=======
+>>>>>>> 5d7fd091d3beedd01c67ac9ed5da1dd152d84c5e
 
 	/*
 	* Widget init
@@ -101,7 +107,11 @@
 			)
 		);
 	}
+<<<<<<< HEAD
 	add_action("widgets_init", "rightslash_sidebar");
 
 	// contact form 7 auto p tag
 	add_filter("wpcf7_autop_or_not", "__return_false");
+=======
+	add_action("widgets_init", "rightslash_sidebar");
+>>>>>>> 5d7fd091d3beedd01c67ac9ed5da1dd152d84c5e

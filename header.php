@@ -20,6 +20,7 @@
 	  gtag('config', 'UA-68783090-3');
 	</script>
 
+<<<<<<< HEAD
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -28,6 +29,8 @@
 	})(window,document,'script','dataLayer','GTM-TL8FB6P');</script>
 	<!-- End Google Tag Manager -->
 
+=======
+>>>>>>> 5d7fd091d3beedd01c67ac9ed5da1dd152d84c5e
 
 	<?php wp_head(); ?>
 
@@ -46,11 +49,14 @@
 	?>
 </head>
 <body <?php body_class(); ?>>
+<<<<<<< HEAD
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL8FB6P"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
+=======
+>>>>>>> 5d7fd091d3beedd01c67ac9ed5da1dd152d84c5e
 	<!-- Load Facebook SDK for JavaScript -->
 	<div id="fb-root"></div>
 	<script>
@@ -76,6 +82,7 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <i class="fa fa-bars"></i>
 			</button>
+<<<<<<< HEAD
 			
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -89,6 +96,19 @@
 						)
 					);
 				?>
+=======
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav">
+			    	<li class="nav-item"><a href="/#about">About</a></li>
+			    	<li class="nav-item"><a href="/#services">Services</a></li>
+					<li class="nav-item"><a href="/#portfolio">Portfolio</a></li>
+					<li class="nav-item"><a href="/#approach">Approach</a></li>
+					<li class="nav-item"><a href="/#blog">Blog</a></li>
+					<li class="nav-item"><a href="/contact-us">Contact us</a></li>
+					<li class="nav-item start-project-btn"><a href="#">Start A Project</a></li>
+			    </ul>
+>>>>>>> 5d7fd091d3beedd01c67ac9ed5da1dd152d84c5e
 			</div>
 		</div>
 	</nav>
