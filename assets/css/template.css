@@ -1449,6 +1449,31 @@ p.mail-subtext{
 	}
 }
 
+/*order page*/
+.order-page-banner{
+	background-image: url(../images/order-banner.png);
+	background-position: 50% 70%;
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+}
+span.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+.codedropz-upload-inner h3 {
+    font-size: 16px;
+}
+
+@media (max-width: 524px){
+	.order-page-banner{
+		height: 250px;
+	}
+	.admin-bar .navbar + .contact-page-wrapper{
+		margin-top: 100px;
+	}
+}
+
 /*footer*/
 footer{
 	background:#191919;

@@ -18,6 +18,7 @@
 		load_theme_textdomain("rightslash");
 		add_theme_support("post-thumbnails");
 		add_theme_support("title-tag");
+		register_nav_menu("topmenu", __("Top Menu", "rightslash"));
 	}
 	add_action("after_setup_theme", "rightslash_bootstrapping");
 
@@ -76,6 +77,14 @@
 	add_action("wp_ajax_send_email", "rightslash_send_email");
 	add_action("wp_ajax_nopriv_send_email", "rightslash_send_email");
 
+	/*
+	* Nav menu css clss
+	*/
+	function rightslash_nav_menu_class($classes, $item){
+		$classes[] = "nav-item";
+		return $classes;
+	}
+	add_filter("nav_menu_css_class", "rightslash_nav_menu_class", 10,2);
 
 	/*
 	* Widget init
@@ -93,3 +102,6 @@
 		);
 	}
 	add_action("widgets_init", "rightslash_sidebar");
+
+	// contact form 7 auto p tag
+	add_filter("wpcf7_autop_or_not", "__return_false");

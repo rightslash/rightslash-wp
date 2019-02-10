@@ -39,6 +39,9 @@
 	    $('html, body').animate({scrollTop:0},'slow', 'easeInOutExpo');
 	});
 
+	// add order button class
+	$('.navbar-nav li:last-child').addClass('start-project-btn');
+
 
 	// Activate scrollspy to add active class to navbar items on scroll
 	$('body').scrollspy({
@@ -137,5 +140,8 @@
 
 	// mail subscription box placeholder
 	$('#es_txt_email').attr("placeholder","email@example.com");
+
+	// order form wrapper pre tag remover
+	$('#wpcf7-f42-p36-o1').unwrap().unwrap();
 
 })(jQuery);

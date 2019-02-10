@@ -20,6 +20,14 @@
 	  gtag('config', 'UA-68783090-3');
 	</script>
 
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TL8FB6P');</script>
+	<!-- End Google Tag Manager -->
+
 
 	<?php wp_head(); ?>
 
@@ -38,6 +46,11 @@
 	?>
 </head>
 <body <?php body_class(); ?>>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL8FB6P"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<!-- Load Facebook SDK for JavaScript -->
 	<div id="fb-root"></div>
 	<script>
@@ -63,17 +76,19 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <i class="fa fa-bars"></i>
 			</button>
+			
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav">
-			    	<li class="nav-item"><a href="/#about">About</a></li>
-			    	<li class="nav-item"><a href="/#services">Services</a></li>
-					<li class="nav-item"><a href="/#portfolio">Portfolio</a></li>
-					<li class="nav-item"><a href="/#approach">Approach</a></li>
-					<li class="nav-item"><a href="/#blog">Blog</a></li>
-					<li class="nav-item"><a href="/contact-us">Contact us</a></li>
-					<li class="nav-item start-project-btn"><a href="#">Start A Project</a></li>
-			    </ul>
+			    <?php  
+					wp_nav_menu(
+						array(
+							"theme_location" => "topmenu",
+							"menu_id" => "navmenu",
+							"container" => "",
+							"items_wrap" => '<ul class="navbar-nav">%3$s</ul>'
+						)
+					);
+				?>
 			</div>
 		</div>
 	</nav>
