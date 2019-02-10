@@ -375,7 +375,7 @@
 					<h4>Start building your business with <span>Right Slash</span></h4>
 				</div>
 				<div class="col text-sm-right text-center wow fadeIn">
-					<a href="#" class="btn btn-rs">Order Now</a>
+					<a href="/start-project/" class="btn btn-rs">Order Now</a>
 				</div>
 			</div>
 		</div>
@@ -395,7 +395,7 @@
 						<p class="service-price">Starts at $89</p>
 						
 						<div class="service-btn-group">
-							<a href="#" class="btn btn-rs order-btn">Order Now</a><span class="rs-btn-divider"> or </span><a href="#" class="rs-quote-link">Request a quote</a>
+							<a href="/start-project/?service-type=PSD%20to%20HTML" class="btn btn-rs order-btn">Order Now</a><span class="rs-btn-divider"> or </span><a href="/get-a-quote/?service-type=PSD%20to%20HTML" class="rs-quote-link">Request a quote</a>
 						</div>
 					</div>
 				</div>
@@ -415,7 +415,7 @@
 						<p class="service-price">Starts at $199</p>
 						
 						<div class="service-btn-group">
-							<a href="#" class="btn btn-rs order-btn">Order Now</a><span class="rs-btn-divider"> or </span><a href="#" class="rs-quote-link">Request a quote</a>
+							<a href="/start-project/?service-type=PSD%20to%20Wordpress" class="btn btn-rs order-btn">Order Now</a><span class="rs-btn-divider"> or </span><a href="/get-a-quote/?service-type=PSD%20to%20Wordpress" class="rs-quote-link">Request a quote</a>
 						</div>
 					</div>
 				</div>
@@ -435,7 +435,7 @@
 						<p class="service-price">Starts at $69</p>
 						
 						<div class="service-btn-group">
-							<a href="#" class="btn btn-rs order-btn">Order Now</a><span class="rs-btn-divider"> or </span><a href="#" class="rs-quote-link">Request a quote</a>
+							<a href="/start-project/?service-type=PSD%20to%20Email" class="btn btn-rs order-btn">Order Now</a><span class="rs-btn-divider"> or </span><a href="/get-a-quote/?service-type=PSD%20to%20Email" class="rs-quote-link">Request a quote</a>
 						</div>
 					</div>
 				</div>
@@ -455,7 +455,8 @@
 						<p class="service-price">Starts at $49</p>
 						
 						<div class="service-btn-group">
-							<a href="#" class="btn btn-rs order-btn">Order Now</a><span class="rs-btn-divider"> or </span><a href="#" class="rs-quote-link">Request a quote</a>
+							<a href="/start-project/?service-type=Graphics%20Design" class="btn btn-rs order-btn">Order Now</a><span class="rs-btn-divider"> or </span><a href="/get-a-quote/?service-type=Graphics%20Design" class="rs-quote-link">Request a quote</a>
+
 						</div>
 					</div>
 				</div>
@@ -631,7 +632,7 @@
 					<h4>Start building your business with <span>Right Slash</span></h4>
 				</div>
 				<div class="col text-sm-right text-center wow fadeIn">
-					<a href="#" class="btn btn-rs">Order Now</a>
+					<a href="/start-project/" class="btn btn-rs">Order Now</a>
 				</div>
 			</div>
 		</div>
