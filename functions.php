@@ -96,6 +96,8 @@
 				"name" => __("Email Subscription", "rightslash"),
 				"id"   => "sidebar-1",
 				"description" => __("Email Subscription section", "rightslash"),
+				"before_widget" => '<div id="%1$s" class="widget %2$s">',
+				"after_widget" => "</div>",
 				"before_title" => "<h4 class='wow zoomIn' data-wow-delay='.3s'>",
 				"after_title" => "</h4>"
 			)
