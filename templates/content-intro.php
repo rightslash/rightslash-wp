@@ -110,7 +110,7 @@
 	      		<article>
 	      			<span class="close">Close me!</span>
 	      			<form  method="post" id="contact-form">
-						<h1>Contact us</h1>
+						<h2>Contact us</h2>
 						<p class="contactInfo-one">To : <strong>Right Slash</strong></p>
 						<p class="contactInfo-one">Subject : <input type="text" required name="subject" class="input-box"></p>
 						<p class="contactInfo-one"><textarea required name="message" class="message" cols="30" rows="10">Description : </textarea></p>
