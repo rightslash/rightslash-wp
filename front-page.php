@@ -16,7 +16,7 @@
 
 <div class="home-container">
 	<div class="main-banner">
-		<img src="<?php echo RS_THEME_ASSET ?>/images/rs-banner-1.png" class="banner-img" alt="Right Slash Banner">
+		<img src="<?php echo RS_THEME_ASSET ?>/images/rs-banner-1.png" title="Right Slash Banner" class="banner-img" alt="Right Slash Banner">
 		<div class="banner-content" id="typed"></div>
 	</div>
 
@@ -76,31 +76,31 @@
 			<h3 class="wow fadeIn" data-wow-delay=".3s">Our Team</h3>
 			<div class="row justify-content-md-center">
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".3s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/gabrial.jpg" alt="">
+					<img src="<?php echo RS_THEME_ASSET ?>/images/gabrial.jpg" title="Gabrial GSM" alt="Gabrial GSM, Founder &amp; CEO of Right Slash">
 					<h4>Gabrial GSM</h4>
 					<span>Founder &amp; CEO</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".2s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/nick.jpg" alt="">
+					<img src="<?php echo RS_THEME_ASSET ?>/images/nick.jpg" title="Nick Patrick" alt="Nick Patrick, Project Manager of Right Slash">
 					<h4>Nick Patrick</h4>
 					<span>Project Manager</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".5s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" alt="">
+					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" title="Krishan Magube" alt="Krishan Magube, Developer of Right Slash">
 					<h4>Krishan Magube</h4>
 					<span>Developer</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".4s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/mahbub.jpg" alt="">
+					<img src="<?php echo RS_THEME_ASSET ?>/images/mahbub.jpg" title="Mahbub Hasan" alt="Mahbub Hasan, Developer of Right Slash">
 					<h4>Mahbub Hasan</h4>
 					<span>Developer</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".7s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/victoria.jpg" alt="">
+					<img src="<?php echo RS_THEME_ASSET ?>/images/victoria.jpg" title="Victoria Farare" alt="Victoria Farare, Developer of Right Slash">
 					<h4>Victoria Farare</h4>
 					<span>Developer</span>
 				</div>
@@ -115,19 +115,19 @@
 				</div>-->
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".3s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" alt="">
+					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" title="Krish Martin" alt="Krish Martin, Marketing Officer of Right Slash">
 					<h4>Krish Martin</h4>
 					<span>Marketing Officer</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".2s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/ramy.jpg" alt="">
+					<img src="<?php echo RS_THEME_ASSET ?>/images/ramy.jpg" title="Clement Ramy" alt="Clement Ramy, Head of Design of Right Slash">
 					<h4>Clement Ramy</h4>
 					<span>Head of Design</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".5s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/samuel.jpg" alt="">
+					<img src="<?php echo RS_THEME_ASSET ?>/images/samuel.jpg" title="Samuel Victor" alt="Samuel Victor, Head of DesignDesigner of Right Slash">
 					<h4>Samuel Victor</h4>
 					<span>Designer</span>
 				</div>
@@ -244,7 +244,7 @@
 					<ul class="portfolio-gallery">
 						<li class="wow bounceIn" data-wow-delay="0.3s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/ecommerce.jpg" alt="e-commerce Template">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/ecommerce.jpg" alt="e-commerce Template" title="Template Design + PSD to HTML">
 								<figcaption>
 									<h5>Template Design + PSD to HTML</h5>
 									<p>E-commerce template design including 7 inner pages and also code to responsive HTML for one of our Indonesian client</p>
@@ -254,7 +254,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.1s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-wp.jpg" alt="PSD to WordPress">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-wp.jpg" alt="PSD to WordPress" title="Template Desing + PSD to WP">
 								<figcaption>
 									<h5>Template Desing + PSD to WP</h5>
 									<p>Business template design for one of our Bangladesh client and also converted to functional wordpress theme</p>
@@ -264,7 +264,7 @@
 
 						<li class="wow bounceIn" data-wow-delay=".6s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html-medicare.jpg" alt="PSD to HTML">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html-medicare.jpg" alt="PSD to HTML" title="PSD to HTML">
 								<figcaption>
 									<h5>PSD to HTML</h5>
 									<p>Converted PSD design to Responsive HTML tempalte for one of our existing client</p>
@@ -274,7 +274,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.4s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html.jpg" alt="PSD to HTML">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html.jpg" alt="PSD to HTML" title="PSD to HTML">
 								<figcaption>
 									<h5>PSD to HTML</h5>
 									<p>Converted PSD design to Responsive HTML tempalte with several javascript functions for one of our USA client</p>
@@ -284,7 +284,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.2s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/web-app.jpg" alt="Web App">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/web-app.jpg" alt="Web App" title="Web App">
 								<figcaption>
 									<h5>Web App</h5>
 									<p>Web app developed for one of our Bangladeshi client Invite Group</p>
@@ -294,7 +294,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.5s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/nsl-brochure.jpg" alt="Brochure Design">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/nsl-brochure.jpg" alt="Brochure Design" title="Brochure Design">
 								<figcaption>
 									<h5>Brochure Design</h5>
 									<p>Brochure design plus total branding for a shipping line</p>
@@ -304,7 +304,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.4s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/wp-mudev.jpg" alt="Business Card">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/wp-mudev.jpg" alt="Business Card" title="Business Card">
 								<figcaption>
 									<h5>Business Card</h5>
 									<p>Business Card design for a team member of wpmudev</p>
@@ -314,7 +314,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.3s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/anchor-creative.jpg" alt="Logo Design">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/anchor-creative.jpg" alt="Logo Design" title="Logo Design">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design for a local organization</p>
@@ -324,7 +324,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.7s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/sofrware-station.jpg" alt="Logo Design">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/sofrware-station.jpg" alt="Logo Design" title="Logo Design">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design and Web template design for a web base training station</p>
@@ -334,7 +334,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.2s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/gadget-life.jpg" alt="Logo Design">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/gadget-life.jpg" alt="Logo Design" title="Logo Design">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design for Gadget Life</p>
@@ -344,7 +344,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.4s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/go-mobi.jpg" alt="Logo Design">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/go-mobi.jpg" alt="Logo Design" title="Logo Design">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design for Go Mobi</p>
@@ -354,7 +354,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.3s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/jm-global.jpg" alt="Logo Design">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/jm-global.jpg" alt="Logo Design" title="Logo Design">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design plus total branding for JM Global Study</p>
@@ -386,7 +386,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-5 text-md-right text-center order-md-12 wow slideInRight" data-wow-delay=".1s">
-						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-html.png" alt="">
+						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-html.png" alt="PSD to HTML service" title="PSD to HTML service">
 					</div>
 					<div class="col-md-7 order-md-1 wow slideInLeft" data-wow-delay=".1s">
 						<h3>PSD to <span>HTML</span></h3>
@@ -406,7 +406,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-5 text-md-left text-center wow slideInLeft" data-wow-delay=".1s">
-						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-wp.png" alt="">
+						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-wp.png" alt="PSD to Wordpress service" title="PSD to Wordpress service">
 					</div>
 					<div class="col-md-7 wow slideInRight" data-wow-delay=".1s">
 						<h3>PSD to <span>WordPress</span></h3>
@@ -426,7 +426,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-5 text-md-right text-center order-md-12 wow slideInRight" data-wow-delay=".1s">
-						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-email.png" alt="">
+						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-email.png" alt="PSD to Email Service" title="PSD to Email Service">
 					</div>
 					<div class="col-md-7 order-md-1 wow slideInLeft" data-wow-delay=".1s">
 						<h3>PSD to <span>Email</span></h3>
@@ -446,7 +446,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-5 text-md-left text-center wow slideInLeft" data-wow-delay=".1s">
-						<img src="<?php echo RS_THEME_ASSET ?>/images/graphic-design.png" alt="">
+						<img src="<?php echo RS_THEME_ASSET ?>/images/graphic-design.png" alt="Graphics Design services" title="Graphics Design services">
 					</div>
 					<div class="col-md-7 wow slideInRight" data-wow-delay=".1s">
 						<h3>Graphics <span>Design</span></h3>
@@ -519,7 +519,7 @@
 					<div class="owl-carousel">
 						<div class="testimonial-item">
 							<div class="testimonial-thumb">
-								<img src="<?php echo RS_THEME_ASSET ?>/images/janek.jpg" class="rounded-circle" alt="">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/janek.jpg" class="rounded-circle" alt="Janek Laika" title="Janek Laika, Tallinn - Estonia">
 							</div>
 							<div class="testimonial-content">
 								<p>They were excellent to work with! Not only were all my requirements fulfilled but also provided answers and coding to questions/problems I might have not known to ask at first. Really helpful in all matters and the end result is way better than I had initially expected. Will definately use Their services again in the future! Thanks!</p>
@@ -529,7 +529,7 @@
 
 						<div class="testimonial-item">
 							<div class="testimonial-thumb">
-								<img src="<?php echo RS_THEME_ASSET ?>/images/irentcanada.jpg" class="rounded-circle" alt="">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/irentcanada.jpg" class="rounded-circle" alt="Jacob Rapote" title="Jacob Rapote, iRentCanada - Canada">
 							</div>
 							<div class="testimonial-content">
 								<p>Right Slash did an amazing job! did exactly what I wanted only explaining 1 time! Their communication, skills, and availability were amazing! i will truly rehire them on our next project!</p>
@@ -539,7 +539,7 @@
 
 						<div class="testimonial-item">
 							<div class="testimonial-thumb">
-								<img src="<?php echo RS_THEME_ASSET ?>/images/darren-russel.jpg" class="rounded-circle" alt="">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/darren-russel.jpg" class="rounded-circle" alt="Darren Russell" title="Darren Russell, Lighthouse Point - United States">
 							</div>
 							<div class="testimonial-content">
 								<p>They are the best I have worked with so far. They are extremely efficient, communicates well, gets the job done right the first time. I will continue to work with them for many years.<br>I would recommend to anyone who is also going to use them for their business!</p>
@@ -549,7 +549,7 @@
 
 						<div class="testimonial-item">
 							<div class="testimonial-thumb">
-								<img src="<?php echo RS_THEME_ASSET ?>/images/super-coffee.jpg" class="rounded-circle" alt="">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/super-coffee.jpg" class="rounded-circle" alt="Super Coffee Coy" title="Super Coffee Coy, Brisbane - Australia">
 							</div>
 							<div class="testimonial-content">
 								<p>We had a project with a tight timeframe. They assessed the requirements and then committed when they were sure that they could deliver. A very happy and professional outcome, delivered on time.</p>
@@ -559,7 +559,7 @@
 
 						<div class="testimonial-item">
 							<div class="testimonial-thumb">
-								<img src="<?php echo RS_THEME_ASSET ?>/images/adam.jpg" class="rounded-circle" alt="">
+								<img src="<?php echo RS_THEME_ASSET ?>/images/adam.jpg" class="rounded-circle" alt="Adam Rosenkoetter" title="Adam Rosenkoetter, Atlanta - United States">
 							</div>
 							<div class="testimonial-content">
 								<p>They did a great job on our site build and was very communicative all along the way. They are very easy to work with and works well under a deadline. All code created was executed in a top-notch manner.</p>
