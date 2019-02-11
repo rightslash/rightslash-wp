@@ -394,12 +394,12 @@ img.tree_3{position: absolute; right: 15px; bottom: 0;}
    -webkit-border-bottom-right-radius: 500px 30px;
    -webkit-border-top-right-radius: 5px 100px;
 
-   -moz-border-radius-bottomleft: 20 500px;
+   -moz-border-radius-bottomleft: 20px 500px;
    -moz-border-radius-bottomright: 500px 30px;
    -moz-border-radius-topright: 5px 100px;
 
 
-   border-radius-bottomleft: 20 500px;
+   border-radius-bottomleft: 20px 500px;
    border-radius-bottomright: 500px 30px;
    border-radius-topright: 5px 100px;
 }

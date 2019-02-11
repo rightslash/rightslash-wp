@@ -791,7 +791,6 @@ Navbar
 	color: #fff;
 	transform: translate3d(0, 1rem, 0);
 	transition: all .3s ease-in-out;
-	pointer-events: none;
 	padding: 10px;
 	background: rgba(0,0,0,0.8);
 }
