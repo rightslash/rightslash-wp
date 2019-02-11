@@ -465,7 +465,7 @@
 	</div>
 
 	<section class="content-section why-rs our-features">
-		<h1 class="wow zoomIn" data-wow-delay=".3s">What you get working with us?</h1>
+		<h2 class="wow zoomIn feature-title" data-wow-delay=".3s">What you get working with us?</h2>
 		<p class="wow zoomIn" data-wow-delay=".5s">Here’s a quick overview of the advantages you receive.</p>
 
 		<div class="container">
