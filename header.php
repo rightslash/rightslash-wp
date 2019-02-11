@@ -4,7 +4,7 @@
 <head>
 	<meta charset="<?php bloginfo("charset"); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="google-site-verification" content="4dSTZtJy9fPK3gDfCYnAe6hSR28s7stI8W6BG2znJzA" />
+	<meta name="google-site-verification" content="sG9BHmJwSpU-T3RIfHA_ZfxOMAGHQ8GEh8vXcBLcQRM" />
 	
 
 	<link rel="shortcut icon" href="<?php echo RS_THEME_URI; ?>/favicon.ico" type="image/x-icon" />
