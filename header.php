@@ -18,20 +18,6 @@
 	<!-- End Google Tag Manager -->
 
 	<?php wp_head(); ?>
-
-	<?php 
-		if(isset($_COOKIE['intro'])){
-		?>
-		<style>
-			.home-container,
-			.navbar,
-			footer{
-				display: block;
-			}
-		</style>
-		<?php	
-		}
-	?>
 </head>
 <body <?php body_class(); ?>>
 	<!-- Google Tag Manager (noscript) -->

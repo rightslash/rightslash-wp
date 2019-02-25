@@ -6,16 +6,6 @@
 	get_header();
 ?>
 
-<?php  
-	if(!isset($_COOKIE['intro'])){
-		/*
-		* Intro part
-		*/
-		get_template_part("templates/content", "intro");
-	}
-	else{
-?>
-
 <div class="contact-page-wrapper">
 	<div class="container-fluid">
 		<div class="row">
@@ -41,7 +31,5 @@
 		</div>
 	</div>
 </div>
-
-<?php } ?>
 
 <?php get_footer(); ?>

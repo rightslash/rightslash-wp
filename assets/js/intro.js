@@ -27,11 +27,6 @@
 
 		var devWidth = $(window).width();
 		
-		if(devWidth <= 767){
-			$('#intro-wrapper').hide(100);
-			$('.home-container,.navbar,footer').show(100);
-			setCookie('intro', 1, 120);
-		} 
 		/*
 		*	Clouds function
 		*/
@@ -83,7 +78,7 @@
 		*	Plane function
 		*/
 		function planeStart(){
-			$('#plane').animate({left: '0px'},{duration :3000,queue:true});
+			$('#plane').animate({left: '0px'},{duration :2000,queue:true});
 		}
 		
 		function plane(){
@@ -108,14 +103,6 @@
 		function unlock_site(){
 			$('.site-unlock').animate({opacity: 1},1000);
 		}
-
-		$('.site-unlock-btn').on('click', function(){
-			$(this).hide(100);
-			//$('.lamp-light').addClass('light-on');
-			$('#intro-wrapper').slideUp(800);
-			$('.home-container,.navbar').slideDown(300);
-			setCookie('intro', 1, 120);
-		});
 		
 		/*
 		*	Parasuit Menu function
@@ -137,7 +124,8 @@
 			//Parasut link function
 			function paraLink(linkElement, linkSpeed){
 				var linkHeight = '60px',
-					linkLnHeight = linkFs = '21px',
+					linkLnHeight = '21px',
+					linkFs = '18px',
 					linkPt = '8px';
 				if(devWidth <= 1024){ linkLnHeight = linkFs ='20px'; }
 				if(devWidth <= 800){ linkHeight = '53px'; linkLnHeight = '17px'; linkFs ='18px'; linkPt = '9px';}

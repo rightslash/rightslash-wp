@@ -55,6 +55,11 @@ h2{
 /*-------------------------------------------
 	@Loading part
 ---------------------------------------------*/
+.home-container,
+.home nav,
+.home footer{
+	opacity: 0;
+}
 #loading{
 	height: 100%;
 	width: 100%;
@@ -137,18 +142,6 @@ h2{
   100% { left: 100px; top:0; }
 }	
 
-.home-container,
-.navbar,
-footer{
-	display: none;
-}
-
-@media (max-width: 767px){
-	#intro-wrapper{display: none;}
-	.home-container,.navbar{
-		display: block;
-	}
-}
 
 /*button*/
 .btn-rs{

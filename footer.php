@@ -1,13 +1,3 @@
-	
-	<?php  
-		if(!isset($_COOKIE['intro'])){
-			/*
-			*	Intro contact part
-			*/
-			get_template_part("inc/intro", "contact");
-		}
-	?>
-
 	<footer>
 		<div class="container">
 			<div class="row">

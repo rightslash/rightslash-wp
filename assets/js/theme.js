@@ -13,8 +13,26 @@
       document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     }
 
+    /*******************************
+    *   Function for Delete cookie
+    ********************************/
+    function delCookie(cname) {
+	    document.cookie = cname+"=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+	}
+
+	/*
+	*	After load content hide loading window
+	*	@	#loading Div
+	*/
+	$(window).load(function() {
+	    $('#loading').fadeOut(300, function(){
+	    	$('.home nav, .home-container, .home footer').css('opacity',1);
+	    });
+	});
+
     // Wow js
     new WOW().init();
+    //wow.sync();
 
     // Smooth scrolling using jQuery easing
 	$('a[href*="#"]:not([href="#"])').click(function() {

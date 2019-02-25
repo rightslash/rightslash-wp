@@ -1,8 +1,15 @@
+<?php  
+	/*
+	* Template name: Intro Page
+	* Intro page
+	*/
+	get_header('intro');
+?>
+
 <!--Page loading block-->
 <div id="loading">
 	<div id="loading-center">
 		<div id="loading-center-absolute">
-			<p class="loading-txt">Right Slash<br>loading..</p>
 			<div class="object" id="object_one"></div>
 			<div class="object" id="object_two" style="left:20px;"></div>
 			<div class="object" id="object_three" style="left:40px;"></div>
@@ -79,24 +86,24 @@
       
       	<div class="parasuitWrap">
 			<div class="para1">
-				<a href="#psdtohtml" class="unlock-btn">Front-end<br>Development</a>
+				<a href="/#psdtohtml" class="unlock-btn">Front-end<br>Development</a>
 			</div>
 
 			<div class="para2">
-				<a href="#psdtowp" class="unlock-btn">PSD to<br>WordPress</a>
+				<a href="/#psdtowp" class="unlock-btn">PSD to<br>WordPress</a>
 			</div>
 
 			<div class="para3">
-				<a href="#psdtoemail" class="unlock-btn">Email<br>Template</a>
+				<a href="/#psdtoemail" class="unlock-btn">Email<br>Template</a>
 			</div>
 
 			<div class="para4">
-				<a href="#graphicsdesign" class="unlock-btn">Graphics<br>Design</a>
+				<a href="/#graphicsdesign" class="unlock-btn">Graphics<br>Design</a>
 			</div>
       	</div>
 	
 		<div class="site-unlock">
-			<span class="site-unlock-btn unlock-btn"><i class="fa fa-angle-double-down" aria-hidden="true"></i></span>
+			<a href="<?php echo home_url(); ?>" class="site-unlock-btn unlock-btn"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
 		</div>
       	
       	<div class="letterbox">
@@ -134,3 +141,5 @@
   	</div>
 </div>
 <!--/intro-wrapper end-->
+
+<?php get_footer('intro'); ?>
