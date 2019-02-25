@@ -80,31 +80,31 @@
 			<h3 class="wow fadeIn" data-wow-delay=".3s">Our Team</h3>
 			<div class="row justify-content-md-center">
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".1s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/gabrial.jpg" title="Gabrial GSM" alt="Gabrial GSM, Founder &amp; CEO of Right Slash">
+					<img data-src="<?php echo RS_THEME_ASSET ?>/images/gabrial.jpg" title="Gabrial GSM" alt="Gabrial GSM, Founder &amp; CEO of Right Slash" class="lazy">
 					<h4>Gabrial GSM</h4>
 					<span>Founder &amp; CEO</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".3s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/nick.jpg" title="Nick Patrick" alt="Nick Patrick, Project Manager of Right Slash">
+					<img data-src="<?php echo RS_THEME_ASSET ?>/images/nick.jpg" title="Nick Patrick" alt="Nick Patrick, Project Manager of Right Slash" class="lazy">
 					<h4>Nick Patrick</h4>
 					<span>Project Manager</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".2s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" title="Krishan Magube" alt="Krishan Magube, Developer of Right Slash">
+					<img data-src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" title="Krishan Magube" alt="Krishan Magube, Developer of Right Slash" class="lazy">
 					<h4>Krishan Magube</h4>
 					<span>Developer</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".4s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/mahbub.jpg" title="Mahbub Hasan" alt="Mahbub Hasan, Developer of Right Slash">
+					<img data-src="<?php echo RS_THEME_ASSET ?>/images/mahbub.jpg" title="Mahbub Hasan" alt="Mahbub Hasan, Developer of Right Slash" class="lazy">
 					<h4>Mahbub Hasan</h4>
 					<span>Developer</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".1s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/victoria.jpg" title="Victoria Farare" alt="Victoria Farare, Developer of Right Slash">
+					<img data-src="<?php echo RS_THEME_ASSET ?>/images/victoria.jpg" title="Victoria Farare" alt="Victoria Farare, Developer of Right Slash" class="lazy">
 					<h4>Victoria Farare</h4>
 					<span>Developer</span>
 				</div>
@@ -119,19 +119,19 @@
 				</div>-->
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".1s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" title="Krish Martin" alt="Krish Martin, Marketing Officer of Right Slash">
+					<img data-src="<?php echo RS_THEME_ASSET ?>/images/avatar-1.jpg" title="Krish Martin" alt="Krish Martin, Marketing Officer of Right Slash" class="lazy">
 					<h4>Krish Martin</h4>
 					<span>Marketing Officer</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".2s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/ramy.jpg" title="Clement Ramy" alt="Clement Ramy, Head of Design of Right Slash">
+					<img data-src="<?php echo RS_THEME_ASSET ?>/images/ramy.jpg" title="Clement Ramy" alt="Clement Ramy, Head of Design of Right Slash" class="lazy">
 					<h4>Clement Ramy</h4>
 					<span>Head of Design</span>
 				</div>
 
 				<div class="col-md-2 col-sm-4 team-block wow bounceIn" data-wow-delay=".4s">
-					<img src="<?php echo RS_THEME_ASSET ?>/images/samuel.jpg" title="Samuel Victor" alt="Samuel Victor, Head of DesignDesigner of Right Slash">
+					<img data-src="<?php echo RS_THEME_ASSET ?>/images/samuel.jpg" title="Samuel Victor" alt="Samuel Victor, Head of DesignDesigner of Right Slash" class="lazy">
 					<h4>Samuel Victor</h4>
 					<span>Designer</span>
 				</div>
@@ -248,7 +248,7 @@
 					<ul class="portfolio-gallery">
 						<li class="wow bounceIn" data-wow-delay="0.1s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/ecommerce.jpg" alt="e-commerce Template" title="Template Design + PSD to HTML">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/ecommerce.jpg" alt="e-commerce Template" title="Template Design + PSD to HTML" class="lazy">
 								<figcaption>
 									<h5>Template Design + PSD to HTML</h5>
 									<p>E-commerce template design including 7 inner pages and also code to responsive HTML for one of our Indonesian client</p>
@@ -258,7 +258,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.2s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-wp.jpg" alt="PSD to WordPress" title="Template Desing + PSD to WP">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-wp.jpg" alt="PSD to WordPress" title="Template Desing + PSD to WP" class="lazy">
 								<figcaption>
 									<h5>Template Desing + PSD to WP</h5>
 									<p>Business template design for one of our Bangladesh client and also converted to functional wordpress theme</p>
@@ -268,7 +268,7 @@
 
 						<li class="wow bounceIn" data-wow-delay=".1s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html-medicare.jpg" alt="PSD to HTML" title="PSD to HTML">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html-medicare.jpg" alt="PSD to HTML" title="PSD to HTML" class="lazy">
 								<figcaption>
 									<h5>PSD to HTML</h5>
 									<p>Converted PSD design to Responsive HTML tempalte for one of our existing client</p>
@@ -278,7 +278,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.3s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html.jpg" alt="PSD to HTML" title="PSD to HTML">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/psd-to-html.jpg" alt="PSD to HTML" title="PSD to HTML" class="lazy">
 								<figcaption>
 									<h5>PSD to HTML</h5>
 									<p>Converted PSD design to Responsive HTML tempalte with several javascript functions for one of our USA client</p>
@@ -288,7 +288,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.2s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/web-app.jpg" alt="Web App" title="Web App">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/web-app.jpg" alt="Web App" title="Web App" class="lazy">
 								<figcaption>
 									<h5>Web App</h5>
 									<p>Web app developed for one of our Bangladeshi client Invite Group</p>
@@ -298,7 +298,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.1s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/nsl-brochure.jpg" alt="Brochure Design" title="Brochure Design">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/nsl-brochure.jpg" alt="Brochure Design" title="Brochure Design" class="lazy">
 								<figcaption>
 									<h5>Brochure Design</h5>
 									<p>Brochure design plus total branding for a shipping line</p>
@@ -308,7 +308,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.3s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/wp-mudev.jpg" alt="Business Card" title="Business Card">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/wp-mudev.jpg" alt="Business Card" title="Business Card" class="lazy">
 								<figcaption>
 									<h5>Business Card</h5>
 									<p>Business Card design for a team member of wpmudev</p>
@@ -318,7 +318,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.1s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/anchor-creative.jpg" alt="Logo Design" title="Logo Design">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/anchor-creative.jpg" alt="Logo Design" title="Logo Design" class="lazy">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design for a local organization</p>
@@ -328,7 +328,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.1s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/sofrware-station.jpg" alt="Logo Design" title="Logo Design">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/sofrware-station.jpg" alt="Logo Design" title="Logo Design" class="lazy">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design and Web template design for a web base training station</p>
@@ -338,7 +338,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.3s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/gadget-life.jpg" alt="Logo Design" title="Logo Design">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/gadget-life.jpg" alt="Logo Design" title="Logo Design" class="lazy">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design for Gadget Life</p>
@@ -348,7 +348,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.2s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/go-mobi.jpg" alt="Logo Design" title="Logo Design">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/go-mobi.jpg" alt="Logo Design" title="Logo Design" class="lazy">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design for Go Mobi</p>
@@ -358,7 +358,7 @@
 
 						<li class="wow bounceIn" data-wow-delay="0.1s">
 							<figure>
-								<img src="<?php echo RS_THEME_ASSET ?>/images/portfolio/jm-global.jpg" alt="Logo Design" title="Logo Design">
+								<img data-src="<?php echo RS_THEME_ASSET ?>/images/portfolio/jm-global.jpg" alt="Logo Design" title="Logo Design" class="lazy">
 								<figcaption>
 									<h5>Logo Design</h5>
 									<p>Logo Design plus total branding for JM Global Study</p>
@@ -390,7 +390,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-5 text-md-right text-center order-md-12 wow fadeInRight">
-						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-html.png" alt="PSD to HTML service" title="PSD to HTML service">
+						<img data-src="<?php echo RS_THEME_ASSET ?>/images/psd-to-html.png" alt="PSD to HTML service" title="PSD to HTML service" class="lazy">
 					</div>
 					<div class="col-md-7 order-md-1 wow fadeInLeft">
 						<h3>PSD to <span>HTML</span></h3>
@@ -410,7 +410,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-5 text-md-left text-center wow fadeInLeft">
-						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-wp.png" alt="PSD to Wordpress service" title="PSD to Wordpress service">
+						<img data-src="<?php echo RS_THEME_ASSET ?>/images/psd-to-wp.png" alt="PSD to Wordpress service" title="PSD to Wordpress service" class="lazy">
 					</div>
 					<div class="col-md-7 wow fadeInRight">
 						<h3>PSD to <span>WordPress</span></h3>
@@ -430,7 +430,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-5 text-md-right text-center order-md-12 wow fadeInRight">
-						<img src="<?php echo RS_THEME_ASSET ?>/images/psd-to-email.png" alt="PSD to Email Service" title="PSD to Email Service">
+						<img data-src="<?php echo RS_THEME_ASSET ?>/images/psd-to-email.png" alt="PSD to Email Service" title="PSD to Email Service" class="lazy">
 					</div>
 					<div class="col-md-7 order-md-1 wow fadeInLeft">
 						<h3>PSD to <span>Email</span></h3>
@@ -450,7 +450,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-5 text-md-left text-center wow fadeInLeft">
-						<img src="<?php echo RS_THEME_ASSET ?>/images/graphic-design.png" alt="Graphics Design services" title="Graphics Design services">
+						<img data-src="<?php echo RS_THEME_ASSET ?>/images/graphic-design.png" alt="Graphics Design services" title="Graphics Design services" class="lazy">
 					</div>
 					<div class="col-md-7 wow fadeInRight">
 						<h3>Graphics <span>Design</span></h3>
