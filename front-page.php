@@ -10,10 +10,10 @@
 	<div id="loading-center">
 		<div id="loading-center-absolute">
 			<div class="object" id="object_one"></div>
-			<div class="object" id="object_two" style="left:20px;"></div>
-			<div class="object" id="object_three" style="left:40px;"></div>
-			<div class="object" id="object_four" style="left:60px;"></div>
-			<div class="object" id="object_five" style="left:80px;"></div>
+			<div class="object" id="object_two"></div>
+			<div class="object" id="object_three"></div>
+			<div class="object" id="object_four"></div>
+			<div class="object" id="object_five"></div>
 		</div>
 	</div>
 </div>
@@ -516,7 +516,6 @@
 	</section>
 
 	<section class="content-section testimonial-block">
-		<!--<h2>WORDS FROM <span>Happy clients</span></h2>-->
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -704,7 +703,7 @@
 				<div class="row align-items-center  intro-flash-container">
 					<div class="col text-md-center">
 						<p>Excited to check our Intro page again?</p>
-						<a href="#" class="btn btn-rs go-to-intro">Go To Intro Page</a>
+						<a href="/intro-slash" class="btn btn-rs">Go To Intro Page</a>
 					</div>
 				</div>
 			</div>

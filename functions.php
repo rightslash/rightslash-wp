@@ -3,7 +3,8 @@
 	/*
 	* Version to avoid cache burst
 	*/
-	define("VERSION", time());
+	//define("VERSION", time());
+	define("VERSION", '1.0.0');
 
 
 	/* Theme CDN */
@@ -31,10 +32,11 @@
 		wp_enqueue_style("animate-css", "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css", null, VERSION );
 		wp_enqueue_style("fontawesome-css", "//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", null, VERSION );
 
-		if(!is_page('intro')){
+		if(!is_page('intro-slash')){
 			wp_enqueue_style("bootstrap-css", "//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css", null, VERSION );
+			wp_enqueue_style("opensan-font", "//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700", null, VERSION );
 			wp_enqueue_style("owl-carousel-css",  RS_THEME_ASSET . "/css/owl.carousel.min.css", null, VERSION );
-			wp_enqueue_style("rightslash-css", RS_THEME_ASSET . "/css/template.css", null, VERSION );
+			wp_enqueue_style("rightslash-css", RS_THEME_ASSET . "/css/template.min.css", null, VERSION );
 
 
 			wp_enqueue_script("bootstrap-js", "//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js", array("jquery"), VERSION, true);
@@ -47,7 +49,7 @@
 			wp_enqueue_script("rightslash-theme-js", RS_THEME_ASSET . "/js/theme.js", array("jquery"), VERSION, true);
 		}
 
-		if(is_page('intro')){
+		if(is_page('intro-slash')){
 			wp_enqueue_style("intro-css", RS_THEME_ASSET . "/css/intro.css", null, VERSION );
 			wp_enqueue_script("modal-js", RS_THEME_ASSET . "/js/modal-effect.js", array("jquery"), VERSION, true);
 			wp_enqueue_script("intro-js", RS_THEME_ASSET . "/js/intro.js", array("jquery"), VERSION, true);
