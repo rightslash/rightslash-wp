@@ -43,7 +43,7 @@
 					<ul class="social-links">
 						<li class="wow zoomIn" data-wow-delay=".2s"><a href="https://www.facebook.com/rightslash"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li class="wow zoomIn" data-wow-delay=".5s"><a href="https://twitter.com/rightslashbd"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="wow zoomIn" data-wow-delay=".1s"><a href="https://www.linkedin.com/in/rightslash/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="wow zoomIn" data-wow-delay=".1s"><a href="https://www.linkedin.com/company/rightslash/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 						<li class="wow zoomIn" data-wow-delay=".6s"><a href="https://dribbble.com/rightslash"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 						<li class="wow zoomIn" data-wow-delay=".3s"><a href="https://www.instagram.com/rightslash/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 						<li class="wow zoomIn" data-wow-delay=".7s"><a href="https://www.youtube.com/channel/UCJLBv3UzIdplmSGn4uBKavg"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
