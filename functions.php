@@ -112,3 +112,15 @@
 
 	// contact form 7 auto p tag
 	add_filter("wpcf7_autop_or_not", "__return_false");
+
+	// back to top button hide for other page
+	function rightslash_backToTopHide(){
+		if(is_home()){
+			?>
+			<style>
+				.backto-top{display: none;}
+			</style>
+			<?php
+		}
+	}
+	add_action("wp_head", "rightslash_backToTopHide");
