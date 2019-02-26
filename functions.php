@@ -115,7 +115,7 @@
 
 	// back to top button hide for other page
 	function rightslash_backToTopHide(){
-		if(is_home()){
+		if(!is_home()){
 			?>
 			<style>
 				.backto-top{display: none;}
